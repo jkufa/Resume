@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1596958128 "/home/jkufa/Octokitty/Work/Resume/resume.tex" "/home/jkufa/Octokitty/Work/Resume/resume.pdf" "resume" 1596958128
+["pdflatex"] 1600284213 "/home/jkufa/Octokitty/Work/Resume/resume.tex" "/home/jkufa/Octokitty/Work/Resume/resume.pdf" "resume" 1600284222
   "/home/jkufa/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1592975721 797358 15ba23b37901f7f909f0c64a401fa845 ""
-  "/home/jkufa/Octokitty/Work/Resume/resume.aux" 1596958128 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/jkufa/Octokitty/Work/Resume/resume.tex" 1596958127 4361 5f7af9ae32a04aa470ef347ff59b2160 ""
+  "/home/jkufa/Octokitty/Work/Resume/resume.aux" 1600284213 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/jkufa/Octokitty/Work/Resume/resume.tex" 1600284222 4361 5f7af9ae32a04aa470ef347ff59b2160 ""
   "/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1571529271 4705165 89f805375525bb3eb1f534beca7104e4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -48,12 +48,12 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty" 1546812253 30849 03c22687ffd5fa0f72f2a417c6cf4ce1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1463002160 55589 34128738f682d033422ca125f82e5d62 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1580905820 35594 9aef19174c178978f61d14961262af5d ""
-  "resume.aux" 1596958128 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "resume.aux" 1600284213 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
   "resume.cls" 1596089107 4794 15ced102b78fce17dd0527ef1b58e680 ""
-  "resume.tex" 1596958127 4361 5f7af9ae32a04aa470ef347ff59b2160 ""
+  "resume.tex" 1600284222 4361 5f7af9ae32a04aa470ef347ff59b2160 ""
   (generated)
   "resume.log"
-  "/home/jkufa/Octokitty/Work/Resume/resume.pdf"
-  "/home/jkufa/Octokitty/Work/Resume/resume.log"
   "resume.aux"
   "resume.pdf"
+  "/home/jkufa/Octokitty/Work/Resume/resume.pdf"
+  "/home/jkufa/Octokitty/Work/Resume/resume.log"
