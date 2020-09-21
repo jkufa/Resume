@@ -1,6 +1,8 @@
 \documentclass{resume} 
 \usepackage{multicol}
+\usepackage{hyperref}
 \usepackage{tabularx}
+\usepackage{hyperref}
 \usepackage[dvipsnames]{xcolor}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 
@@ -9,11 +11,19 @@
 \renewcommand{\baselinestretch}{.85}
 
 \name{Jack H. Kufa}
-\address{1869 White Columns Dr. \#304, Rolla MO \\ (217) 827-5454}
-\address{www.kufa.io \\ jack@kufa.io \\ linkedin.com/in/jackkufa \\ github.com/jkufa}
+% no idea why order has to be this way
+\address{(217) 827-5454 \\ jack@kufa.io}
+\address{\url{https://www.kufa.io} \\ \href{https://www.linkedin.com/in/jackkufa}{linkedin.com/in/jackkufa} \\ \href{https://www.github.com/jkufa}{github.com/jkufa}}
+\address{1869 White Columns Dr. \#304, Rolla MO} 
 
 \begin{document}
 \definecolor{myBlue}{RGB}{0,51,102}
+
+% \begin{center}
+%     1869 White Columns Dr. \#304, Rolla MO \\
+%     (217) 827-5454 $\bullet$ jack@kufa.io \\
+%     \url{https://www.kufa.io} $\bullet$ \href{https://www.linkedin.com/in/jackkufa}{linkedin.com/in/jackkufa} $\bullet$ \href{https://www.github.com/jkufa}{github.com/jkufa}
+% \end{center}
 
 % \begin{rSection}{Career Objective}
 % To work for an organization which provides me the opportunity to improve my skills and knowledge.
