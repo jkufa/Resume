@@ -72,6 +72,9 @@
     \nameskip\break
   \endgroup
 }
+\def \tabitem {
+  \llap{\textbullet \tab}
+}
 
 %----------------------------------------------------------------------------------------
 %	PRINT THE HEADING LINES

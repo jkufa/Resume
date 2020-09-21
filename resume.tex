@@ -1,5 +1,6 @@
 \documentclass{resume} 
 \usepackage{multicol}
+\usepackage{tabularx}
 \usepackage[dvipsnames]{xcolor}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 
@@ -8,7 +9,7 @@
 \renewcommand{\baselinestretch}{.85}
 
 \name{Jack H. Kufa}
-\address{Rolla MO \\ (217) 827-5454}
+\address{1869 White Columns Dr. \#304, Rolla MO \\ (217) 827-5454}
 \address{www.kufa.io \\ jack@kufa.io \\ linkedin.com/in/jackkufa \\ github.com/jkufa}
 
 \begin{document}
@@ -21,69 +22,96 @@
 \begin{rSection}{Education}
     \small
     {
-        {\bf Missouri University of Science and Technology} \hfill {Fall 2017 -- Present}
-        \\Anticipated B.S Computer Engineering, Minor in Computer Science -- Fall 2021 \hfill {\bf GPA: 3.34/4.00}
+        \begin{tabular}{r|p{15cm}}
+            \textsc{Fall} 2021 & Missouri University of Science and Technology, Rolla MO  \\
+                              & \textbf{Anticipated B.S Computer Engineering, Minor in Computer Science} \\
+                              & GPA: 3.34/4.00 \\
+        \end{tabular}
     }
 \end{rSection}
 
 \begin{rSection}{Experience}
 \small
 {
-    {\bf Yaskawa America, Inc} \hfill {\bf May 2019 -- August 2019}\\
-    \emph{Software Engineer Intern – Full Stack Development}
-     \hfill {Oak Creek, WI}
-     \begin{itemize}
-        \item {Automated generation of product schematics}
-        \item {Actively developed C\# ASP.NET MVC web Application}
-        \item {Interfaced with EPLAN API in unprecedented way}
-        \item {Designed SQL Database with Entity Framework \& Code First Migrations}
-        \item {Interacted with coworkers \& supervisor daily to update design specifications}
-    \end{itemize}
+    \begin{tabular}{r|p{15cm}}
+        \textsc{May 2019} & \textbf{Yaskawa America, Inc}, Oak Creek WI \\
+        \textsc{Aug 2019}  & \textit{Software Engineer Intern – Full Stack Development} \\ &
+        \begin{itemize}
+            \item {Automated generation of product schematics}
+            \item {Unprecedented Integration of EPLAN API with Web Application}
+            \item {Developed C\# ASP.NET MVC Web Application}
+            \item {Designed SQL Database with Entity Framework \& Code First Migrations}
+            \item {Interacted with coworkers \& supervisor daily to update design specifications}
+        \end{itemize}
+    \end{tabular}
 
-    {\bf Underwater Robotics Design Teams}\hfill {\bf August 2017 -- August 2020}\\
-    \emph{Competition Lead}
-     \hfill {Rolla, MO}
-     \begin{itemize}
-        \item {Studied thoroughly all competition rules regulations \& deadlines}
-        \item {Managed documentation, trainings \& deadlines to ensure competition preparedness}
-        \item {Developed new team website using ASP.NET \& Telerik UI}
-    \end{itemize}
-    \emph{Vice President \& Electrical Division Member}
-    \begin{itemize}
-        \item {Invited, Engaged, \& Guided new members to promote team growth}
-        \item {Developed Discord bot using Discord's API to automate role assignment}
-    \end{itemize}
+    \begin{tabular}{r|p{15cm}}
+        \textsc{May 2020} & \textbf{CinemaCraft LLC}, Remote \\
+        \textsc{Aug 2020}  & \textit{Developer} \\ &
+        \begin{itemize}
+            \item {Interfaced with Spigot API to create custom Minecraft plugins}
+            \item {Managed servers remotely servers on Linux host}
+            \item {Collaborated with modelers to create custom entities, items, etc.}
+        \end{itemize}
+    \end{tabular}
 
-    {\bf CinemaCraft}\hfill {\bf May 2020 -- August 2020}\\
-    \emph{Developer}
-     \hfill {Remote}
-     \begin{itemize}
-        \item {Interfaced with Spigot API to create custom Minecraft plugins}
-        \item {Collaborate with modelers to create custom entities, items, etc.}
-    \end{itemize}
+    \begin{tabular}{r|p{15cm}}
+        \textsc{Aug 2017} & \textbf{Underwater Robotics Design Team}, Rolla MO \\
+        \textsc{May 2020}  & \textit{Competition Lead} \\ &
+        \begin{itemize}
+            \item {Studied thoroughly all competition rules regulations \& deadlines}
+            \item {Managed documentation, trainings \& deadlines to ensure competition preparedness}
+            \item {Developed new team website using ASP.NET \& Telerik UI}
+        \end{itemize}
+        \textit{Vice President}
+        \begin{itemize}
+            \item {Invited, engaged, \& guided new members to promote team growth}
+            \item {Developed Discord bot using Discord's API to automate role assignment}
+        \end{itemize}
+    \end{tabular}
 
-    {\bf Embyr Technologies}\hfill {\bf January 2018 -- Dec 2018}\\
-    \emph{Director of Marketing \& Design}
-     \hfill {Rolla, MO}
-     \begin{itemize}
-        \item {Coordinated the curation of news articles for Social Media}
-        \item {Produced video content to advertise \& engage viewers}
-        \item {Received top 15 Finish at EIX E-Fest Schulze Entrepreneurship Challenge}
-    \end{itemize}
+    \begin{tabular}{r|p{15cm}}
+        \textsc{Jan 2018} & \textbf{Embyr Technologies LLC}, Rolla MO \\
+        \textsc{Dec 20}  & \textit{Director of Marketing \& Design} \\ &
+        \begin{itemize}
+            \item {Coordinated the curation of news articles for Social Media}
+            \item {Produced video content to advertise \& engage viewers}
+            \item {Received top 15 Finish at EIX E-Fest Schulze Entrepreneurship Challenge}
+        \end{itemize}
+    \end{tabular}
 }
+\end{rSection}
 
+\begin{rSection}{Projects}
+    \small
+    {
+        \begin{tabular}{p{.3\textwidth} p{.35\textwidth}}
+            \textbf{Wellness Trainer} & \textbf{Doublecross} \\
+            \textit{Hackathon} & \textit{Hackathon} \\
+            \begin{itemize}
+                \item Android Studio
+                \item Kotlin
+                \item CSS
+            \end{itemize} &
+            \begin{itemize}
+                \item \textbf{Best Use of Twilio Award}
+                \item Twilio API
+                \item C\# ASP.NET Web Application
+            \end{itemize}
+        \end{tabular}
+    }
 \end{rSection}
 
 \begin{rSection}{Technical Skills}
-  \small
-  {
-      \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l @{\hspace{4ex}} l @{\hspace{4ex}} l}
-      \textcolor{white}{easily} & {\bf {Proficient}}& {\bf  {Familiar}} \\
-      {\bf Languages} & C\#, C++, Java & Python, HTML, CSS, Javascript, \LaTeX \\
-      {\bf Industry Knowledge} & Git, Linux, Bash/Zsh, Soldering & PCB Design \\
-      {\bf Tools \& Software} & Visual Studio, VS Code, IntelliJ, Photoshop  & KiCad, Unreal Engine \\
-      \end{tabular}
-  }
+    \small
+    {
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l @{\hspace{4ex}} l @{\hspace{4ex}} l}
+        \textcolor{white}{easily} & {\bf {Proficient}}& {\bf  {Familiar}} \\
+        {\bf Languages} & C\#, C++, Java & Python, HTML, CSS, Javascript\\
+        {\bf Industry Knowledge} & Git, Linux, Bash/Zsh, Soldering & PCB Design \\
+        {\bf Tools \& Software} & Visual Studio, VS Code, IntelliJ, Photoshop  & KiCad, \LaTeX \\
+        \end{tabular}
+    }
   \end{rSection}
 
 
@@ -92,21 +120,11 @@
 {
     \begin{tabular}{@{\hspace{0ex}} l @{\hspace{4ex}} l @{\hspace{4ex}} l @{\hspace{4ex}} l}
     Data Structures & Digital Logic & Circuits I \& II & Intro to Electronic Devices\\
-    Operating Systems & Computer Organization \& Design & Microcontrollers & Linear Algebra
+    Operating Systems & Computer Organization \& Design & Microcontrollers
     \end{tabular}
 }
 \end{rSection}
 
-\begin{rSection}{Projects}
-    \small
-    {
-        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l @{\hspace{4ex}} l @{\hspace{4ex}} l}
-        \textcolor{white}{easily} & {\bf {Proficient}}& {\bf  {Familiar}} \\
-        {\bf Languages} & C\#, C++, Java & Python, HTML, CSS, Javascript, \LaTeX \\
-        {\bf Industry Knowledge} & Git, Linux, Bash/Zsh, Soldering, ASP.NET & PCB Design \\
-        {\bf Tools \& Software} & Visual Studio, VS Code, Adobe Suite  & KiCad,IntelliJ \\
-        \end{tabular}
-    }
-    \end{rSection}
+
 
 \end{document}
