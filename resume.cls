@@ -104,7 +104,8 @@
   \sectionlineskip
   \begin{list}{}{ % List for each individual item in the section
     \setlength{\leftmargin}{0em} % Margin within the section
-  }
+    \itemsep -0.25em \vspace{-0.25em} % Compress items in list together for aesthetics
+    }
   \item[]
 }{
   \end{list}
