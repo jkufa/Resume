@@ -26,6 +26,11 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
+\usepackage[OT1]{fontenc} % SET FONT TO Computer Modern
+\usepackage[dvipsnames]{xcolor}
+\definecolor{angularBlue}{RGB}{21,103,194}
+\definecolor{reactDarkBlue}{RGB}{40,44,52}
+
 
 \pagestyle{empty} % Suppress page numbers
 
@@ -35,6 +40,9 @@
 
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
+
+\def \protitle#1{\def\@protitle{#1}}
+\def \@protitle {}
 
 \def \addressSep {$\bullet$} % Set default address separator to a bullet
 
@@ -65,16 +73,18 @@
   \addressskip
 }
 
-% \printname is used to print the name as a page header
+% \printname is used to print the name & professional title as a page header
 \def \printname {
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
     \nameskip\break
   \endgroup
 }
+
 \def \tabitem {
   \llap{\textbullet \tab}
 }
+
 
 %----------------------------------------------------------------------------------------
 %	PRINT THE HEADING LINES
@@ -101,6 +111,7 @@
 \sectionskip
 \hrule % Horizontal line
   \Large
+  % \textcolor{reactDarkBlue}{\MakeUppercase{\bf #1}} % Section title
   \MakeUppercase{\bf #1} % Section title
   \sectionlineskip
   \begin{list}{}{ % List for each individual item in the section
@@ -115,7 +126,6 @@
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
-
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
  {\bf #1} \hfill {#2} % Bold company name and date on the right
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
