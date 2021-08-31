@@ -68,6 +68,7 @@
   \begingroup
     \def \\ {\addressSep\ }
     \centerline{#1}
+    \vspace{.1em}
   \endgroup
   \par
   \addressskip
