@@ -26,8 +26,8 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
-\usepackage[OT1]{fontenc} % SET FONT TO Computer Modern
 \usepackage[dvipsnames]{xcolor}
+\usepackage[OT1]{fontenc} % SET FONT to Computer Modern
 \definecolor{angularBlue}{RGB}{21,103,194}
 \definecolor{reactDarkBlue}{RGB}{40,44,52}
 
