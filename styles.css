@@ -1,0 +1,209 @@
+body {
+  background-color: var(--background);
+  font-family: 'Publico Text', serif;
+  font-size: 12px;
+  color: var(--body-color);
+}
+
+h1 {
+  font-family: 'Publico Headline', serif;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  font-variant-caps: all-small-caps;
+  color: var(--header-color);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  padding: 0;
+  margin: 4px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact, a {
+  margin-top: auto;
+  font-size: 10px;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.letter-page-container {
+  margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  padding: 0.5in; /* controls margins */
+  width: 8.5in;
+  height: 11in;
+  background-color: var(--resume-page);
+  border: 1px solid var(--page-border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 12px;
+}
+
+.name, .title {
+  margin-bottom: auto;
+}
+
+.date, .location, .gpa {
+  color: var(--date-color);
+}
+
+.space-between-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 22px;
+  line-height: 10px;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.title {
+  color: var(--date-color);
+  line-height: 10px;
+  margin-bottom: auto;
+}
+
+.school {
+  color: var(--bold-color);
+  font-weight: bold;
+}
+
+.skill-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 14px;
+}
+.skill-type {
+  font-weight: bold;
+  border-right: 1px solid var(--border-color);
+  width: 74px;
+  padding-right: 8px;
+}
+
+.school,
+.company,
+.date, 
+.project-title {
+  line-height: 12px;
+}
+.project-description {
+  line-height: 12px;
+  font-weight: normal;
+}
+
+.company {
+  color: var(--bold-color);
+}
+
+.position, .project-title {
+  font-weight: bold;
+  color: var(--bold-color);
+}
+
+.experience-item, .project-item {
+  margin: 2px 0;
+}
+
+.bullet-points {
+  list-style-type: disc;
+  padding: 0;
+  margin-top: 2px;
+}
+.bullet-points li {
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+}
+
+@media print {
+  html {
+    height: 11in;
+    width: 8.5in;
+    overflow: hidden;
+  }
+  body {
+    margin: 0;
+  }
+  .canvas-container {
+    width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --resume-page: var(--resume-page-dark) !important;
+    --background: var(--bg-dark) !important;
+    --border-color: var(--resume-warm-light) !important;
+    --page-border: var(--page-border-dark)  !important;
+    --title-color: var(--resume-warm-light)  !important;
+    --header-color: var(--resume-warm-light-84)  !important;
+    --subheader-color: var(--resume-warm-light-60)  !important;
+    --body-color:var(--resume-warm-light)  !important;
+    --body-color-80: var(--resume-warm-light-80);
+    --bold-color: var(--resume-warm-light-90)  !important;
+    --date-color: var(--resume-warm-light-70)  !important;
+    --link-color: var(--resume-warm-light-60)  !important;
+  }
+}
+
+:root {
+  --resume-page: var(--resume-page-light);
+  --background: var(--bg-light);
+  --border-color: var(--resume-warm-dark-20);
+  --page-border: var(--page-border-light);
+  --title-color: var(--resume-warm-dark);
+  --header-color: var(--resume-warm-dark-84);
+  --subheader-color: var(--resume-warm-dark-80);
+  --body-color:var(--resume-warm-dark);
+  --body-color-90: var(--resume-warm-dark-90);
+  --bold-color: var(--resume-warm-dark-90);
+  --date-color: var(--resume-warm-dark-70);
+  --link-color: var(--resume-warm-dark-60);
+
+  --resume-warm-dark: hsla(14, 52%, 8%, 1);
+  --resume-warm-dark-90: hsla(14, 52%, 8%, 0.9);
+  --resume-warm-dark-80: hsla(14, 52%, 8%, 0.8);
+  --resume-warm-dark-84: hsla(14, 52%, 8%, 0.84);
+  --resume-warm-dark-70: hsla(14, 52%, 8%, 0.7);
+  --resume-warm-dark-60: hsla(14, 52%, 8%, 0.6);
+  --resume-warm-dark-50: hsla(14, 52%, 8%, 0.5);
+  --resume-warm-dark-40: hsla(14, 52%, 8%, 0.4);
+  --resume-warm-dark-30: hsla(14, 52%, 8%, 0.3);
+  --resume-warm-dark-20: hsla(14, 52%, 8%, 0.2);
+
+  --resume-warm-light: rgb(248, 243, 241, 1);
+  --resume-warm-light-90: rgba(248, 243, 241, 0.9);
+  --resume-warm-light-84: rgba(248, 243, 241, 0.84);
+  --resume-warm-light-80: rgba(248, 243, 241, 0.8);
+  --resume-warm-light-70: rgba(248, 243, 241, 0.7);
+  --resume-warm-light-60: rgba(248, 243, 241, 0.6);
+  --resume-warm-light-50: rgba(248, 243, 241, 0.5);
+  --resume-warm-light-40: rgba(248, 243, 241, 0.4);
+  --resume-warm-light-30: rgba(248, 243, 241, 0.3);
+  --resume-warm-light-20: rgba(248, 243, 241, 0.2);
+  
+  --bg-light: hsla(14, 52%, 8%, 0.022);
+  --bg-dark: hsla(14, 30%, 6%, 1);
+  --resume-page-dark: rgb(42, 38, 36);
+  --resume-page-light: white;
+  --page-border-light: hsla(14, 52%, 8%, 0.16);
+}
