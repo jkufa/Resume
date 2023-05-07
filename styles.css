@@ -202,8 +202,8 @@ a:hover {
   --resume-warm-light-20: rgba(248, 243, 241, 0.2);
   
   --bg-light: hsla(14, 52%, 8%, 0.022);
-  --bg-dark: hsla(14, 30%, 6%, 1);
-  --resume-page-dark: rgb(42, 38, 36);
+  --bg-dark: rgb(20, 18, 17);
+  --resume-page-dark: rgb(49, 45, 43);
   --resume-page-light: white;
   --page-border-light: hsla(14, 52%, 8%, 0.16);
 }
