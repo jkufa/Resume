@@ -10,7 +10,7 @@
 <body>
   <main class="letter-page-container">
     <div class="content-container">
-      <div class="name-title-contact">
+      <section class="name-title-contact">
         <div class="space-between-container">
           <h1 class="name">Jack H. Kufa</h1>
           <!-- TODO: wrap these in hrefs -->
@@ -30,40 +30,8 @@
             <a href="mailto:jack@kufa.io">jack@kufa.io</a>
           </div>
         </div>
-      </div>
-      <div class="education">
-        <div class="header">
-          <h1>Education</h1>
-          <hr/>
-        </div>
-        <div class="space-between-container">
-          <div class="school">Missouri University of Science & Technology</div>
-          <div class="date">2017 - 2021</div>
-        </div>
-        <div class="space-between-container">
-          <div class="degree">B.S. in Computer Science, B.S. in Computer Engineering</div>
-          <div class="gpa">GPA: 3.49</div>
-        </div>
-      </div>
-      <div class="skills">
-        <div class="header">
-          <h1>Skills</h1>
-          <hr/>
-        </div>
-        <div class="skill-line">
-          <span class="skill-type">Languages</span>
-          <span class="skill-items">Typescript/Javascript (ES5/6), C#, HTML/CSS/SASS, Python, MSSQL</span>
-        </div>
-        <div class="skill-line">
-          <span class="skill-type">Frameworks</span>
-          <span class="skill-items">Angular, React, NestJS, NextJS, .NET 6+</span>
-        </div>
-        <div class="skill-line">
-          <span class="skill-type">Other</span>
-          <span class="skill-items">Git, Agile/Scrum, RESTful APIs, Storybook, Cypress, Figma, Azure, SQL Server, GitHub Actions</span>
-        </div>
-      </div>
-      <div class="experience">
+      </section>
+      <section class="experience">
         <div class="header">
           <h1>Experience</h1>
           <hr/>
@@ -80,10 +48,10 @@
             </div>
           </div>
           <ul class="bullet-points">
+            <li>Built out new growth product to streamline company hierarchy generation</li>
             <li>Owned migration of Blazor WASM web app to Angular 15 with functional parity in 7 days</li>
             <li>Designed & maintained GitHub Action CI/CD workflows across 6 unique applications on Azure</li>
             <li>Integrated CORS cross-domain cookie into survey platform to generate customer journey map</li>
-            <li>Transitioned smg360® authorization token from local storage to cookie to improve security</li>
             <li>Delivered mobile-first location picker component utilizing Google Maps API</li>
           </ul>
         </div>
@@ -178,47 +146,63 @@
             <li>Curated news articles relevant to Embyr brand to increase social media media engagement</li>
           </ul>
         </div>
-      </div>
-    <div class="projects">
-      <div class="header">
-        <h1>Projects</h1>
-        <hr/>
-      <!-- </div>
-      <div class="project-item">
-        <div class="project-header">
-          <div class="space-between-container">
-            <div class="project-title">Kufa.io</div>
-            <div class="date">Nov2021</div>
-          </div>
-          <div class="space-between-container">
-            <div class="project-description">Personal website developed with React, Typescript, and Sass</div>
-          </div>
+      </section>
+      <section class="education">
+        <div class="header">
+          <h1>Education</h1>
+          <hr/>
         </div>
-        <ul class="bullet-points">
-          <li>Mocked design iteratively using Figma</li>
-          <li>Developed responsive website with mobile-first approach</li>
-          <li>Utilized GitHub Actions to automate deployment to GitHub Pages</li>
-        </ul>
-      </div> -->
-      <div class="project-item">
-        <div class="project-header">
-          <div class="space-between-container">
-            <div class="project-title">
-            Corgle &#8212;
-            <span class="project-description">Wordle-inspired hackathon project on guessing the names of pet dogs</span></div>
-            <div class="date">April 2022</div>
-          </div>
-          <div class="space-between-container">
-            <div class="project-techstack"><i>Built using React, Typescript, Sass, NestJS, Python, and MongoDB</i></div>
-          </div>
+        <div class="space-between-container">
+          <div class="school">Missouri University of Science & Technology</div>
+          <div class="date">2017 - 2021</div>
         </div>
-        <ul class="bullet-points">
-          <li style="font-weight: 600;">Awarded Cigna’s Most Accessible Hack award</li>
-          <li>Managed application architecture & front end implementation details</li>
-          <li>Scraped WeRateDogs® Twitter for images of over 200 unique pets & alt text</li>
-        </ul>
-      </div>
-    </div>
+        <div class="space-between-container">
+          <div class="degree">B.S. in Computer Science, B.S. in Computer Engineering</div>
+          <div class="gpa">GPA: 3.49</div>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="header">
+          <h1>Skills</h1>
+          <hr/>
+        </div>
+        <div class="skill-line">
+          <span class="skill-type">Languages</span>
+          <span class="skill-items">Typescript/Javascript (ES5/6), C#, HTML/CSS/SASS, Python, MSSQL</span>
+        </div>
+        <div class="skill-line">
+          <span class="skill-type">Frameworks</span>
+          <span class="skill-items">Angular, React, NestJS, NextJS, .NET 6+</span>
+        </div>
+        <div class="skill-line">
+          <span class="skill-type">Other</span>
+          <span class="skill-items">Git, Agile/Scrum, RESTful APIs, Storybook, Cypress, Figma, Azure, SQL Server, GitHub Actions</span>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="header">
+          <h1>Projects</h1>
+          <hr/>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div class="space-between-container">
+              <div class="project-title">
+              Corgle &#8212;
+              <span class="project-description">Wordle-inspired hackathon project on guessing the names of pet dogs</span></div>
+              <div class="date">April 2022</div>
+            </div>
+            <div class="space-between-container">
+              <div class="project-techstack"><i>Built using React, Typescript, Sass, NestJS, Python, and MongoDB</i></div>
+            </div>
+          </div>
+          <ul class="bullet-points">
+            <li style="font-weight: 600;">Awarded Cigna’s Most Accessible Hack award</li>
+            <li>Managed application architecture & front end implementation details</li>
+            <li>Scraped WeRateDogs® Twitter for images of over 200 unique pets & alt text</li>
+          </ul>
+        </div>
+      </section>
   </main>
 </body>
 </html>
