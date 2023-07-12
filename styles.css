@@ -1,14 +1,15 @@
 body {
   background-color: var(--background);
   font-family: 'Publico Text', serif;
-  font-size: 12px;
+  font-size: 11pt;
+  line-height: calc(11pt * 1.3);
   color: var(--body-color);
 }
 
 h1 {
   font-family: 'Publico Headline', serif;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 11pt;
+  line-height: 11pt;
   margin: 0;
   font-variant-caps: all-small-caps;
   color: var(--header-color);
@@ -29,9 +30,14 @@ a:hover {
 
 .contact, a {
   margin-top: auto;
-  font-size: 10px;
+  font-size: 10pt;
   color: var(--link-color);
   text-decoration: none;
+}
+
+.divider {
+  letter-spacing: -.75px;
+  padding: 0 2px;
 }
 
 .letter-page-container {
@@ -68,14 +74,11 @@ a:hover {
 
 .name {
   font-size: 22px;
-  line-height: 10px;
   color: var(--title-color);
-  margin-bottom: 10px;
 }
 
 .title {
   color: var(--date-color);
-  line-height: 10px;
   margin-bottom: auto;
 }
 
@@ -88,24 +91,21 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  line-height: 14px;
 }
 .skill-type {
   font-weight: bold;
   border-right: 1px solid var(--border-color);
-  width: 74px;
+  width: 100px;
   padding-right: 8px;
 }
 
-.school,
-.company,
-.date, 
-.project-title {
-  line-height: 12px;
-}
 .project-description {
   line-height: 12px;
   font-weight: normal;
+}
+
+.project-techstack {
+  color: var(--date-color);
 }
 
 .company {
@@ -117,20 +117,30 @@ a:hover {
   color: var(--bold-color);
 }
 
-.experience-item, .project-item {
-  margin: 2px 0;
+.experience-header,.project-header {
+  margin-bottom: 2px;
+}
+
+.experience-item {
+  margin-bottom: 17px;
+}
+.experience-item:last-child {
+  margin-bottom: 0;
 }
 
 .bullet-points {
   list-style-type: disc;
   padding: 0;
-  margin-top: 2px;
+  margin: 0;
 }
 .bullet-points li {
-  margin: 0;
   padding: 0;
-  line-height: 14px;
+  margin-bottom: 2px;
 }
+.bullet-points li:last-child {
+  margin-bottom: 0;
+}
+
 
 @media print {
   html {
