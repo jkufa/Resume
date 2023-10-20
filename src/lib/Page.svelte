@@ -4,13 +4,17 @@
 
 <style lang="scss">
   .page {
+    box-sizing: border-box;
     padding: .5in;
     width: 100%;
-    max-width: 8.5in;
-    height: 11in;
+    max-width: var(--page-width);
+    height: var(--page-height);
     background: white;
     border-radius: 2px;
-    background: #FFF;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.06), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.03), 0px 0px 4px 0px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-s);
   }
+
 </style>

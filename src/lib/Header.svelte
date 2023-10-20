@@ -67,19 +67,31 @@
   justify-content: space-between;
 
   .name {
-    font-size: 26pt;
-    line-height: calc(26pt / 1.2);
+    font-size: var(--font-header);
+    line-height: calc(var(--font-header) / 1.2);
   }
 
   h1,p {
-    margin: auto;
+    margin: 0;
   }
 
   .links, .contacts {
     display: flex;
-    gap: 8px;
+    gap: var(--spacing-xs);
     justify-content: flex-end;
+
+    & a:not(:last-child)::after {
+      display:inline-block;
+      margin-inline-start: var(--spacing-xs);
+      content: '/';
+      text-decoration: none !important;
+    }
   }
-  
+
+  .content-start,.content-end {
+    display: flex;
+    gap: var(--spacing-xs);
+    flex-direction: column;
+  }
 }
 </style>

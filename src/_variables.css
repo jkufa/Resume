@@ -1,0 +1,18 @@
+:root {
+	--font-header: 26pt;
+	--font-body: 10pt;
+
+	--page-height: 11in;
+	--page-width: 8.5in;
+
+	--bg-light: #fafafa;
+	--font-color: black;
+
+	--spacing-xxs: 2px;
+	--spacing-xs: 4px;
+	--spacing-s: 6px;
+	--spacing-m: 8px;
+	--spacing-lg: 10px;
+	--spacing-xl: 12px;
+	--spacing-xxl: 14px;
+}
