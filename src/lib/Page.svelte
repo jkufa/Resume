@@ -1,6 +1,21 @@
-<div class="page">
-	<slot />
-</div>
+<script>
+	import { onMount } from 'svelte';
+	import { quintOut } from 'svelte/easing';
+
+	import { fade } from 'svelte/transition';
+
+	let isLoaded = false;
+
+	onMount(() => {
+		isLoaded = true;
+	});
+</script>
+
+{#if isLoaded}
+	<div class="page" transition:fade={{ duration: 2000, easing: quintOut }}>
+		<slot />
+	</div>
+{/if}
 
 <style lang="scss">
 	.page {

@@ -6,8 +6,8 @@
 
 <style lang="scss">
 	h2 {
-		margin: 0.25rem 0;
-		padding-bottom: 0.375rem;
+		margin: var(--spacing-s) 0;
+		padding-bottom: var(--spacing-xs);
 		border-bottom: 1px solid rgb(0, 0, 0, 0.6);
 	}
 </style>

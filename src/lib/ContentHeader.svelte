@@ -4,7 +4,7 @@
 	export let title;
 	export let info;
 	export let dates;
-	export let location;
+	export let location = null;
 	export let isOneLine = false;
 </script>
 

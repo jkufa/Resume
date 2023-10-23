@@ -63,7 +63,7 @@ export const ResContent = {
 					end: 'Aug 2019'
 				},
 				bulletPoints: [
-					'Created a first-of-its-kind C# ASP.NET MVC web app with EPLAN’s APá',
+					'Created a first-of-its-kind C# ASP.NET MVC web app with EPLAN’s API',
 					'Automated generation of electrical panel schematics, reducing 30-40 minute design time to seconds',
 					'Designed an SQL Database using Code First Migrations in EF6 to store schematic information'
 				]
@@ -84,6 +84,7 @@ export const ResContent = {
 					'Goal based Todo app inspired by Todoist',
 					'Supported account creation & profile management with Supabase Auth, including Google Oauth',
 					'Designed hierarchical goals table with pre-sorted materialized path by converting index & id integers into 4 byte binary',
+					'Scripted postgres functions and triggers to automatically set indices and binary materialized paths',
 					'Created integration tests for all major user flows with Playwright & implemented Lighthouse into CI/CD'
 				]
 			},
@@ -101,5 +102,42 @@ export const ResContent = {
 				]
 			}
 		]
+	},
+	skills: {
+		title: 'Skills',
+		items: [
+			{
+				name: 'Languages',
+				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'Golang', 'C#', 'Postgres', 'MSSQL']
+			},
+			{
+				name: 'Frameworks',
+				skills: ['React', 'Angular', 'Svelte', 'SvelteKit', 'NextJS', '.NET 6']
+			},
+			{
+				name: 'Other',
+				skills: [
+					'Node',
+					'Jest',
+					'Vite',
+					'Cypress',
+					'Playwright',
+					'Git',
+					'Agile',
+					'REST APIs',
+					'Storybook',
+					'Azure',
+					'GitHub Actions'
+				]
+			}
+		]
+	},
+	education: {
+		title: 'Education',
+		school: 'Missouri University of Science & Technology',
+		degrees: ['B.S. Computer Science', 'B.S. Computer Engineering'],
+		dates: {
+			end: 'Dec 2021'
+		}
 	}
 };
