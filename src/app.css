@@ -14,6 +14,13 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+.content-start,
+.content-end {
+	display: flex;
+	gap: var(--spacing-xs);
+	flex-direction: column;
+}
+
 a {
 	font-weight: 500;
 	color: #646cff;
@@ -26,9 +33,19 @@ a:hover {
 
 a,
 h2,
-p {
+p,
+li {
 	font-size: var(--font-body);
 	line-height: calc(var(--font-body) * 0.9);
+}
+
+li {
+	line-height: calc(var(--font-body) * 1.1);
+}
+
+h1,
+p {
+	margin: 0;
 }
 
 body {
