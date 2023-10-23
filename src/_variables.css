@@ -1,12 +1,10 @@
 :root {
-	--font-header: 26pt;
-	--font-body: 10pt;
+  /* VALUES */
+	--font-header: 28pt;
+	--font-body: 10.5pt;
 
 	--page-height: 11in;
 	--page-width: 8.5in;
-
-	--bg-light: #fafafa;
-	--font-color: black;
 
 	--spacing-xxs: 2px;
 	--spacing-xs: 4px;
@@ -15,4 +13,15 @@
 	--spacing-lg: 10px;
 	--spacing-xl: 12px;
 	--spacing-xxl: 14px;
+
+  --opacity-s: .78;
+  --opacity-m: .66;
+
+  --bg: #fafafa;
+  --font-color: var(--text-body);
+
+  --text-fun: #0800A4;
+  --text-body: #1e1e2e;
+  --text-link: #1616DF;
+  --text-link-hover: #000079;
 }

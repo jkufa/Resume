@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { quintOut } from 'svelte/easing';
+	import { cubicInOut, cubicOut, elasticIn, elasticOut, quintOut } from 'svelte/easing';
 
 	import { fade } from 'svelte/transition';
 
@@ -9,10 +9,24 @@
 	onMount(() => {
 		isLoaded = true;
 	});
+
+  function fadeIn(node, { duration, delay }) {
+    return {
+      duration,
+      delay,
+      easing: cubicOut,
+      css: (t, u) => {
+        return `
+          opacity: ${t};
+          transform: translateY(-${u*5}%);
+        `
+      }
+    }
+  }
 </script>
 
 {#if isLoaded}
-	<div class="page" transition:fade={{ duration: 2000, easing: quintOut }}>
+	<div class="page" transition:fadeIn={{ duration: 700, delay: 100 }}>
 		<slot />
 	</div>
 {/if}

@@ -23,13 +23,13 @@
 
 a {
 	font-weight: 500;
-	color: #072a91;
+	color: var(--text-link);
 	text-decoration: inherit;
 }
 
 a:hover {
 	transition: color 200ms ease-in-out;
-	color: #000064;
+	color: var(--text-link-hover);
 	text-decoration: underline;
 }
 
@@ -55,8 +55,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	place-items: center;
-	background: var(--bg-light);
+	background: var(--bg);
 	min-height: 100svh;
+  color: var(--font-color);
 }
 
 #app {
@@ -87,6 +88,7 @@ main {
 	}
 	a {
 		color: var(--font-body);
+    opacity: var(--opacity-s);
 	}
 	#app {
 		margin: 0;

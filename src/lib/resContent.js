@@ -65,7 +65,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Created a first-of-its-kind C# ASP.NET MVC web app with EPLAN’s API',
 					'Automated generation of electrical panel schematics, reducing 30-40 minute design time to seconds',
-					'Designed an SQL Database using Code First Migrations in EF6 to store schematic information'
+					'Designed SQL Database schemas using Code First Migrations in EF6 to store schematic information'
 				]
 			}
 		]
@@ -83,7 +83,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Goal based Todo app inspired by Todoist',
 					'Supported account creation & profile management with Supabase Auth, including Google Oauth',
-					'Designed hierarchical goals table with pre-sorted materialized path by converting index & id integers into 4 byte binary',
+					'Implemented binary materialized paths using user index & id for extremely performant sorts',
 					'Scripted postgres functions and triggers to automatically set indices and binary materialized paths',
 					'Created integration tests for all major user flows with Playwright & implemented Lighthouse into CI/CD'
 				]

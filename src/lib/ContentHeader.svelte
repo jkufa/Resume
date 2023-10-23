@@ -48,10 +48,10 @@
 		font-weight: 600;
 	}
 	.info {
-		opacity: 0.8;
+		opacity: var(--opacity-s);
 	}
 
 	.content-end {
-		opacity: 0.66;
-	}
+		opacity: var(--opacity-s);
+  }
 </style>

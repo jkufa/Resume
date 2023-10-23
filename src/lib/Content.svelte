@@ -26,7 +26,7 @@
 		gap: var(--spacing-xs);
 
 		&:not(:last-child) {
-			margin-bottom: var(--spacing-s);
+			margin-bottom: var(--spacing-m);
 		}
 	}
 </style>
