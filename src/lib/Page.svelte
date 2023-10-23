@@ -40,6 +40,11 @@
 		height: var(--page-height);
 		background: white;
 		border-radius: 2px;
+    transition: all 300ms ease-out;
+    &:hover {
+      scale: 1.01;
+      box-shadow: rgba(2, 2, 131, 0.12) 0px 30px 90px;
+    }
 		box-shadow:
 			0px 4px 8px 0px rgba(0, 0, 0, 0.03),
 			0px 0px 4px 0px rgba(0, 0, 0, 0.02);
