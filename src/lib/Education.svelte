@@ -10,5 +10,5 @@
 
 <div class="container">
 	<SectionHeader {title} />
-	<ContentHeader title={school} info={degrees.join(', ')} {dates} />
+	<ContentHeader title={school} info={degrees} {dates} />
 </div>

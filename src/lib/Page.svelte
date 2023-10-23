@@ -1,8 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { cubicInOut, cubicOut, elasticIn, elasticOut, quintOut } from 'svelte/easing';
-
-	import { fade } from 'svelte/transition';
+	import { circOut } from 'svelte/easing';
 
 	let isLoaded = false;
 
@@ -10,23 +8,23 @@
 		isLoaded = true;
 	});
 
-  function fadeIn(node, { duration, delay }) {
-    return {
-      duration,
-      delay,
-      easing: cubicOut,
-      css: (t, u) => {
-        return `
+	function fadeIn(node, { duration, delay }) {
+		return {
+			duration,
+			delay,
+			easing: circOut,
+			css: (t, u) => {
+				return `
           opacity: ${t};
-          transform: translateY(-${u*5}%);
-        `
-      }
-    }
-  }
+          transform: translateY(-${u * 5}%);
+        `;
+			}
+		};
+	}
 </script>
 
 {#if isLoaded}
-	<div class="page" transition:fadeIn={{ duration: 700, delay: 100 }}>
+	<div class="page" transition:fadeIn={{ duration: 800, delay: 100 }}>
 		<slot />
 	</div>
 {/if}
@@ -40,11 +38,11 @@
 		height: var(--page-height);
 		background: white;
 		border-radius: 2px;
-    transition: all 300ms ease-out;
-    &:hover {
-      scale: 1.01;
-      box-shadow: rgba(2, 2, 131, 0.12) 0px 30px 90px;
-    }
+		transition: all 600ms cubic-bezier(0.09, 0.33, 0, 0.99) 100ms;
+		&:hover {
+			scale: 1.01;
+			box-shadow: rgba(2, 2, 131, 0.15) 0px 30px 90px;
+		}
 		box-shadow:
 			0px 4px 8px 0px rgba(0, 0, 0, 0.03),
 			0px 0px 4px 0px rgba(0, 0, 0, 0.02);

@@ -1,5 +1,5 @@
 :root {
-  /* VALUES */
+	/* VALUES */
 	--font-header: 28pt;
 	--font-body: 10.5pt;
 
@@ -14,14 +14,14 @@
 	--spacing-xl: 12px;
 	--spacing-xxl: 14px;
 
-  --opacity-s: .78;
-  --opacity-m: .66;
+	--opacity-s: 0.78;
+	--opacity-m: 0.66;
 
-  --bg: #fafafc;
-  --font-color: var(--text-body);
+	--bg: #fafafc;
+	--font-color: var(--text-body);
 
-  --text-fun: #0800A4;
-  --text-body: #1e1e2e;
-  --text-link: #1616DF;
-  --text-link-hover: #000079;
+	--text-fun: #0800a4;
+	--text-body: #1e1e2e;
+	--text-link: #1616df;
+	--text-link-hover: #000079;
 }

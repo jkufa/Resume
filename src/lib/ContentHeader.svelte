@@ -6,6 +6,8 @@
 	export let dates;
 	export let location = null;
 	export let isOneLine = false;
+
+	console.log(info);
 </script>
 
 <div class="content-header">
@@ -14,7 +16,11 @@
 			{title}
 		</p>
 		<p class="info">
-			{info}
+			{#if Array.isArray(info) && info.length > 0}
+				{info.join(', ')}
+			{:else}
+				{info}
+			{/if}
 		</p>
 	</div>
 	<div class="content-end">
@@ -33,6 +39,7 @@
 	.content-start.oneLiner {
 		flex-direction: row;
 	}
+
 	.content-header {
 		display: flex;
 		justify-content: space-between;
@@ -53,5 +60,5 @@
 
 	.content-end {
 		opacity: var(--opacity-s);
-  }
+	}
 </style>

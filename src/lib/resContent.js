@@ -13,15 +13,15 @@ export const ResContent = {
 				company: 'Service Management Group',
 				location: 'Remote, US',
 				dates: {
-					start: 'January 2022',
+					start: 'Jan 2022',
 					end: 'Present'
 				},
 				bulletPoints: [
 					'Led development of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
-					'Implemented 2 APIs to reduce hierarchy import times by up to 5x for large clients',
+					'Implemented 2 APIs to migrate away from legacy service API & reduced hierarchy import times by up to 500%',
 					'Owned migration of Blazor WASM web app to Angular 15 with functional parity in 7 days',
 					'Designed & maintained GitHub Action CI/CD workflows to deploy over 6 unique projects to Azure',
-					'Mentored QA engineer in Cypress testing to improve overall test coverage'
+					'Reduced brittle cypress tests from 43% & used fixtures & custom commands to improve test coverage by 20%'
 				]
 			},
 			{
@@ -48,9 +48,9 @@ export const ResContent = {
 					end: 'Aug 2020'
 				},
 				bulletPoints: [
-					'Generated over 16.6 million YouTube views for content creator',
-					'Interfaced with Spigot API to create a custom Minecraft plugin',
-					'Deployed plugins to servers using Maven to automate the build process',
+					'Managed development of assets that generated over 16.6 million YouTube views for content creators',
+					'Interfaced with Spigot API to create custom Minecraft plugins',
+					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
 					'Managed server resources on a Linux box remotely via SSH to ensure plugin responsiveness'
 				]
 			},
@@ -77,20 +77,20 @@ export const ResContent = {
 				title: 'JourneyTodo',
 				info: 'SvelteKit, Typescript, Sass, Supabase, Postgres, Vercel',
 				dates: {
-					start: 'September 2023',
+					start: 'Sept 2023',
 					end: 'Present'
 				},
 				bulletPoints: [
 					'Goal based Todo app inspired by Todoist',
 					'Supported account creation & profile management with Supabase Auth, including Google Oauth',
 					'Implemented binary materialized paths using user index & id for extremely performant sorts',
-					'Scripted postgres functions and triggers to automatically set indices and binary materialized paths',
+					'Scripted postgres functions & triggers to automatically set indices & binary materialized paths',
 					'Created integration tests for all major user flows with Playwright & implemented Lighthouse into CI/CD'
 				]
 			},
 			{
 				title: 'Corgle',
-				info: 'React, Typescript, Sass, NestJS, Python, and MongoDB',
+				info: 'React, Typescript, Sass, NestJS, Python, & MongoDB',
 				dates: {
 					start: 'April 2022',
 					end: 'April 2022'
@@ -98,7 +98,20 @@ export const ResContent = {
 				bulletPoints: [
 					'Created Wordle-like game for hackathon with the objective of guessing dog names based on images',
 					'Awarded Cigna’s Most Accessible Hack award for including alt text for 500 dog pictures',
-					'Scraped WeRateDogs® Tweets and translated data to JSON containing over 200 unique dogs'
+					'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
+				]
+			},
+			{
+				title: 'Drafty',
+				info: ['Python', 'Flask', 'SQLite', 'SQLAlchemy', 'Discord'],
+				dates: {
+					start: 'Oct 2020',
+					end: 'Dec 2020'
+				},
+				bulletPoints: [
+					'Built Discord bot for creating & managing Pokemon Draft Leagues',
+					'Created Flask UI to initialize manage users, Pokemon, & draft sheets',
+					'Wrote complete documentation on how to setup & run the web app & bot'
 				]
 			}
 		]
@@ -108,7 +121,7 @@ export const ResContent = {
 		items: [
 			{
 				name: 'Languages',
-				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'Golang', 'C#', 'Postgres', 'MSSQL']
+				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'C#', 'Postgres', 'MSSQL']
 			},
 			{
 				name: 'Frameworks',

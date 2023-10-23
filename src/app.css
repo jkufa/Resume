@@ -57,7 +57,7 @@ body {
 	place-items: center;
 	background: var(--bg);
 	min-height: 100svh;
-  color: var(--font-color);
+	color: var(--font-color);
 }
 
 #app {
@@ -70,7 +70,7 @@ main {
 	align-items: center; /* Center vertically */
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
 		background-color: #ffffff;
@@ -78,7 +78,7 @@ main {
 	a:hover {
 		color: #747bff;
 	}
-}
+} */
 
 @media print {
 	html {
@@ -88,7 +88,7 @@ main {
 	}
 	a {
 		color: var(--font-body);
-    opacity: var(--opacity-s);
+		opacity: var(--opacity-s);
 	}
 	#app {
 		margin: 0;
