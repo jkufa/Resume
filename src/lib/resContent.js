@@ -110,7 +110,7 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Built Discord bot for creating & managing Pokemon Draft Leagues',
-					'Created Flask UI to initialize manage users, Pokemon, & draft sheets',
+					'Created Flask UI to add & manage users, Pokemon, & draft sheets',
 					'Wrote complete documentation on how to setup & run the web app & bot'
 				]
 			}
