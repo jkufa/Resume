@@ -19,9 +19,9 @@ export const ResContent = {
 				bulletPoints: [
 					'Led development of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
 					'Implemented 2 APIs to migrate away from legacy service API & reduced hierarchy import times by up to 500%',
-					'Owned migration of Blazor WASM web app to Angular 15 with functional parity in 7 days',
-					'Designed & maintained GitHub Action CI/CD workflows to deploy over 6 unique projects to Azure',
-					'Reduced brittle cypress tests from 43% & used fixtures & custom commands to improve test coverage by 20%'
+					'Designed & maintained GitHub Actions CI/CD workflows to deploy over 6 unique projects to Azure',
+          'Leveraged Cypress fixtures/custom commands to reduce brittle tests by 93% and boost developer productivity',
+					'Migrated Blazor WASM web app to Angular 15 with functional parity in 7 days',
 				]
 			},
 			{
@@ -34,8 +34,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Developed reusable Angular components for internal UI component library & design systems',
-					'Updated API to support functionality for KPI lite model to reduce loading time',
-					'Decoupled functionality in AngularJS service to correctly show resolved cases for 200+ accounts',
+					'Revamped reporting API to support functionality for KPI lite model to reduce loading time',
+					'Decoupled functionality in AngularJS service to correctly show resolved cases for over 200 accounts',
 					'Fixed various bugs in smg360® across 3 different technologies to improve user experience'
 				]
 			},
@@ -51,7 +51,7 @@ export const ResContent = {
 					'Managed development of assets that generated over 16.6 million YouTube views for content creators',
 					'Interfaced with Spigot API to create custom Minecraft plugins',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-					'Managed server resources on a Linux box remotely via SSH to ensure plugin responsiveness'
+          'Coordinated various departments to bundle assets and resources for a weekly deliverable'
 				]
 			},
 			{
@@ -64,8 +64,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Created a first-of-its-kind C# ASP.NET MVC web app with EPLAN’s API',
-					'Automated generation of electrical panel schematics, reducing 30-40 minute design time to seconds',
-					'Designed SQL Database schemas using Code First Migrations in EF6 to store schematic information'
+					'Automated generation of electrical panel schematics, reducing design time from 30+ minutes to seconds',
+					'Architected SQL Database schemas using Code First Migrations in EF6 to store schematic information'
 				]
 			}
 		]
@@ -81,11 +81,11 @@ export const ResContent = {
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Goal based Todo app inspired by Todoist',
-					'Supported account creation & profile management with Supabase Auth, including Google Oauth',
-					'Implemented binary materialized paths using user index & id for extremely performant sorts',
+					'Goal based todo app inspired by Todoist with Supabase as data layer & auth layer',
+					'Implemented binary materialized paths using user index + id for performant custom sorts',
 					'Scripted postgres functions & triggers to automatically set indices & binary materialized paths',
-					'Created integration tests for all major user flows with Playwright & implemented Lighthouse into CI/CD'
+					'Integrated end-to-end tests for major user flows with Playwright',
+          'Prototyped components & screens in Figma to validate user experience before implementation',
 				]
 			},
 			{
@@ -96,22 +96,23 @@ export const ResContent = {
 					end: 'April 2022'
 				},
 				bulletPoints: [
-					'Created Wordle-like game for hackathon with the objective of guessing dog names based on images',
+					'Built Wordle-like game for hackathon with the objective of guessing dog names based on images',
 					'Awarded Cigna’s Most Accessible Hack award for including alt text for 500 dog pictures',
 					'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
 				]
 			},
 			{
 				title: 'Drafty',
-				info: ['Python', 'Flask', 'SQLite', 'SQLAlchemy', 'Discord'],
+				info: ['Python', 'Flask', 'SQLite3', 'SQLAlchemy', 'Discord'],
 				dates: {
 					start: 'Oct 2020',
 					end: 'Dec 2020'
 				},
 				bulletPoints: [
-					'Built Discord bot for creating & managing Pokemon Draft Leagues',
-					'Created Flask UI to add & manage users, Pokemon, & draft sheets',
-					'Wrote complete documentation on how to setup & run the web app & bot'
+					'Custom Discord bot for creating & managing Pokemon Draft Leagues',
+					'Designed Flask web app for adding & managing users, Pokemon, & draft sheets',
+          'Automated user reporting of match scores & handled leaderboards via Discord bot',
+					'Authored complete documentation of system design, including how to setup & run the web app & bot'
 				]
 			}
 		]
@@ -125,22 +126,22 @@ export const ResContent = {
 			},
 			{
 				name: 'Frameworks',
-				skills: ['React', 'Angular', 'Svelte', 'SvelteKit', 'NextJS', '.NET 6']
+				skills: ['Angular', 'Svelte', 'SvelteKit', 'React', 'NextJS', '.NET 6']
 			},
 			{
 				name: 'Other',
 				skills: [
+					'REST',
+          'CI/CD',
+					'Agile',
 					'Node',
+					'Git',
 					'Jest',
-					'Vite',
 					'Cypress',
 					'Playwright',
-					'Git',
-					'Agile',
-					'REST APIs',
 					'Storybook',
+          'Figma',
 					'Azure',
-					'GitHub Actions'
 				]
 			}
 		]
