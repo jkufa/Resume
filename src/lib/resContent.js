@@ -36,7 +36,7 @@ export const ResContent = {
 					'Developed reusable Angular components for internal UI component library & design systems',
 					'Revamped reporting API to support functionality for KPI lite model to reduce loading time',
 					'Decoupled functionality in AngularJS service to correctly show resolved cases for over 200 accounts',
-					'Fixed various bugs in smg360® across 3 different technologies to improve user experience'
+					'Fixed various bugs in smg360® across 3 different technologies to improve user experience in production'
 				]
 			},
 			{
