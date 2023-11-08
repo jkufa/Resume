@@ -17,7 +17,7 @@ export const ResContent = {
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Led development of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
+					'Led system design of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
 					'Implemented 2 APIs to migrate away from legacy service API & reduced hierarchy import times by up to 500%',
 					'Designed & maintained GitHub Actions CI/CD workflows to deploy over 6 unique projects to Azure',
           'Leveraged Cypress fixtures/custom commands to reduce brittle tests by 93% and boost developer productivity',
@@ -49,9 +49,9 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Managed development of assets that generated over 16.6 million YouTube views for content creators',
-					'Interfaced with Spigot API to create custom Minecraft plugins',
+					'Interfaced with Spigot API to create custom Minecraft plugins across 6 servers',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-          'Coordinated various departments to bundle assets and resources for a weekly deliverable'
+          'Coordinated various departments to bundle assets and resources for a weekly deliverable',
 				]
 			},
 			{
@@ -75,14 +75,14 @@ export const ResContent = {
 		content: [
 			{
 				title: 'JourneyTodo',
-				info: 'SvelteKit, Typescript, Sass, Supabase, Postgres, Vercel',
+				info: 'SvelteKit (with SSR), Typescript, Sass, Supabase, Postgres, Vercel',
 				dates: {
 					start: 'Sept 2023',
 					end: 'Present'
 				},
 				bulletPoints: [
 					'Goal based todo app inspired by Todoist with Supabase as data layer & auth layer',
-					'Implemented binary materialized paths using user index + id for performant custom sorts',
+					'Implemented binary materialized paths using custom user index + goal id for scalable load times',
 					'Scripted postgres functions & triggers to automatically set indices & binary materialized paths',
 					'Integrated end-to-end tests for major user flows with Playwright',
           'Prototyped components & screens in Figma to validate user experience before implementation',
@@ -111,7 +111,8 @@ export const ResContent = {
 				bulletPoints: [
 					'Custom Discord bot for creating & managing Pokemon Draft Leagues',
 					'Designed Flask web app for adding & managing users, Pokemon, & draft sheets',
-          'Automated user reporting of match scores & handled leaderboards via Discord bot',
+          'Integrated SQLAlchemy ORM into Discord bot code & flask code to read & write to SQLite3 database',
+          'Automated match score reporting for users & displayed leaderboards via Discord bot',
 					'Authored complete documentation of system design, including how to setup & run the web app & bot'
 				]
 			}
@@ -122,11 +123,11 @@ export const ResContent = {
 		items: [
 			{
 				name: 'Languages',
-				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'C#', 'Postgres', 'MSSQL']
+				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'Java', 'C#', 'Postgres', 'MSSQL']
 			},
 			{
 				name: 'Frameworks',
-				skills: ['Angular', 'Svelte', 'SvelteKit', 'React', 'NextJS', '.NET 6']
+				skills: ['Angular', 'React', 'Svelte', 'SvelteKit', 'NextJS', '.NET 6']
 			},
 			{
 				name: 'Other',
@@ -136,6 +137,7 @@ export const ResContent = {
 					'Agile',
 					'Node',
 					'Git',
+          'SSR',
 					'Jest',
 					'Cypress',
 					'Playwright',
