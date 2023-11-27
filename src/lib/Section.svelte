@@ -11,8 +11,3 @@
 	<SectionHeader {title} />
 	<Content {content} {headerType} />
 </div>
-
-<style>
-	.container {
-	}
-</style>

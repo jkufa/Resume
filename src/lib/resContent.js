@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Frontend Software Engineer',
+		title: 'Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -18,9 +18,9 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Led system design of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
-					'Implemented 2 APIs to migrate away from legacy service API & reduced hierarchy import times by up to 500%',
-					'Designed & maintained GitHub Actions CI/CD workflows to deploy over 6 unique projects to Azure',
+					'Implemented 2-layer API to migrate away from legacy API & reduced hierarchy import times by 99.6%',
           'Leveraged Cypress fixtures/custom commands to reduce brittle tests by 93% and boost developer productivity',
+					'Designed & maintained GitHub Actions CI/CD workflows to deploy over 6 unique projects to Azure',
 					'Migrated Blazor WASM web app to Angular 15 with functional parity in 7 days',
 				]
 			},
@@ -33,10 +33,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Developed reusable Angular components for internal UI component library & design systems',
-					'Revamped reporting API to support functionality for KPI lite model to reduce loading time',
+					'Developed reusable Angular components for internal UI component library & design system',
+					'Revamped reporting API with new functionality for KPI lite model to reduce loading times',
 					'Decoupled functionality in AngularJS service to correctly show resolved cases for over 200 accounts',
-					'Fixed various bugs in smg360® across 3 different technologies to improve user experience in production'
 				]
 			},
 			{
@@ -49,7 +48,6 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Managed development of assets that generated over 16.6 million YouTube views for content creators',
-					'Interfaced with Spigot API to create custom Minecraft plugins across 6 servers',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
           'Coordinated various departments to bundle assets and resources for a weekly deliverable',
 				]
@@ -73,6 +71,19 @@ export const ResContent = {
 	projects: {
 		title: 'Projects',
 		content: [
+      // {
+      //   title: 'TapIn',
+      //   info: 'NextJs, React Native, Typescript, TailindCSS/Nativewind, Expo, Solito',
+      //   dates: {
+      //     start: 'November 2023',
+      //     end: 'Present',
+      //   },
+      //   bulletPoints: [
+      //     'The native-first matchmaking app for short-term relocation',
+      //     'Shared component structure between web and native for fast, multi-platform development',
+      //     'Solito to handle routing across platforms'
+      //   ]
+      // },
 			{
 				title: 'JourneyTodo',
 				info: 'SvelteKit (with SSR), Typescript, Sass, Supabase, Postgres, Vercel',
@@ -88,6 +99,19 @@ export const ResContent = {
           'Prototyped components & screens in Figma to validate user experience before implementation',
 				]
 			},
+      // {
+      //   title: 'Wisdom Keeper',
+      //   info: ['Golang, Discord, Docker, Google Cloud'],
+      //   dates: {
+      //       start: 'Sept 2023',
+      //       end: 'Sept 2023',
+      //   },
+      //   bulletPoints: [
+      //     'Custom discord bot that manages messaging in a server full of admins',
+      //     'Automatically deletes message if a user posts too soon before a certain time',
+      //     'Deployed in a docker container on Google Cloud Compute Engine',
+      //   ]
+      // },
 			{
 				title: 'Corgle',
 				info: 'React, Typescript, Sass, NestJS, Python, & MongoDB',
@@ -101,7 +125,7 @@ export const ResContent = {
 					'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
 				]
 			},
-			{
+      {
 				title: 'Drafty',
 				info: ['Python', 'Flask', 'SQLite3', 'SQLAlchemy', 'Discord'],
 				dates: {
@@ -115,7 +139,7 @@ export const ResContent = {
           'Automated match score reporting for users & displayed leaderboards via Discord bot',
 					'Authored complete documentation of system design, including how to setup & run the web app & bot'
 				]
-			}
+			},
 		]
 	},
 	skills: {
