@@ -35,14 +35,15 @@ a:hover {
 
 a,
 h2,
-p,
-li {
+span,
+p {
 	font-size: var(--font-body);
 	line-height: calc(var(--font-body) * 0.9);
 }
 
 li {
-	line-height: calc(var(--font-body) * 1.1);
+	font-size: var(--font-body);
+	line-height: calc(var(--font-body) * 1.25);
 }
 
 h1,
@@ -70,17 +71,25 @@ main {
 	align-items: center; /* Center vertically */
 }
 
-/* @media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-} */
+.bullet-points {
+	margin: 0;
+	padding-left: var(--spacing-xxs);
+}
+.bullet-points li {
+	list-style-position: inside;
+}
+
+.print-title {
+  display: none;
+}
 
 @media print {
+  .default-title {
+    display: none;
+  }
+  .print-title {
+    display: initial !important;
+  }
 	html {
 		height: var(--page-height);
 		width: var(--page-width);

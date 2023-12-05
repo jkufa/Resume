@@ -8,14 +8,30 @@
 
 	let { header, experience, projects, skills, education } = ResContent;
 	let { name, title, contacts, links } = header;
+  let pageTitles = {
+    default: 'Jack Kufa – Resume',
+    print: 'JackKufaResume',
+  }
+  let pageTitle = pageTitles.default;
+
+  function setTitle() {
+    pageTitle = pageTitles.print;
+  }
+  function resetTitle() {
+    pageTitle = pageTitles.default;
+  }
 </script>
 
+<svelte:window on:beforeprint={setTitle} on:afterprint={resetTitle}></svelte:window>
+<svelte:head>
+	<title>{pageTitle}</title>
+</svelte:head>
 <main>
 	<Page>
 		<Header {name} {title} {contacts} {links}></Header>
-		<Section title={experience.title} content={experience.content} />
-		<Section title={projects.title} content={projects.content} headerType="1Liner" />
 		<Skills title={skills.title} items={skills.items} />
+		<Section title={experience.title} content={experience.content} />
+		<Section title={projects.title} content={projects.content} />
 		<Education
 			title={education.title}
 			school={education.school}
@@ -24,6 +40,3 @@
 		/>
 	</Page>
 </main>
-
-<style lang="scss">
-</style>

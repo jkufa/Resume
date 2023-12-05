@@ -13,6 +13,7 @@
 			info={c['info'] ?? c['company']}
 			dates={c.dates}
 			location={c.location}
+      url={c.url}
 			isOneLine={headerType === '1Liner' ? true : false}
 		/>
 		<Bullets items={c.bulletPoints}></Bullets>
@@ -23,10 +24,10 @@
 	.container {
 		display: flex;
 		flex-direction: column;
-		gap: var(--spacing-xs);
+		gap: var(--spacing-s);
 
 		&:not(:last-child) {
-			margin-bottom: var(--spacing-m);
+			margin-bottom: var(--spacing-xl);
 		}
 	}
 </style>

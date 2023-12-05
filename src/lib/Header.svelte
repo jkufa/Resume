@@ -1,9 +1,11 @@
 <script>
+  // TODO: convert project to sveltekit
+  // import { PHONE_NUMBER } from '$env/static/private';
+
 	export let name;
 	export let title;
 	export let links = [];
 	export let contacts = [];
-
 	/**
 	 * Check if string is formatted like a number
 	 * @param {string} str - the string to check

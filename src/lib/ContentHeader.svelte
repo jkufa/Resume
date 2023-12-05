@@ -5,16 +5,21 @@
 	export let info;
 	export let dates;
 	export let location = null;
+  export let url = null;
 	export let isOneLine = false;
-
-	console.log(info);
 </script>
 
 <div class="content-header">
-	<div class="content-start" class:oneLiner={isOneLine}>
-		<p class="title">
-			{title}
-		</p>
+	<div class="content-start">
+    <div class="oneLiner">
+      <p class="title">
+        {title}
+      </p>
+      {#if url}
+      •
+      <a class="url" href="{url}">{url}</a>
+      {/if}
+    </div>
 		<p class="info">
 			{#if Array.isArray(info) && info.length > 0}
 				{info.join(', ')}
@@ -36,8 +41,11 @@
 </div>
 
 <style lang="scss">
-	.content-start.oneLiner {
+	.oneLiner {
+		display: flex;
 		flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xs);
 	}
 
 	.content-header {

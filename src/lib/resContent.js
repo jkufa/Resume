@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Software Engineer',
+		title: 'Frontend Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -17,11 +17,11 @@ export const ResContent = {
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Led system design of SAAS hierarchy onboarding wizard, cutting onboarding time from 2 weeks to minutes',
-					'Implemented 2-layer API to migrate away from legacy API & reduced hierarchy import times by 99.6%',
-          'Leveraged Cypress fixtures/custom commands to reduce brittle tests by 93% and boost developer productivity',
-					'Designed & maintained GitHub Actions CI/CD workflows to deploy over 6 unique projects to Azure',
-					'Migrated Blazor WASM web app to Angular 15 with functional parity in 7 days',
+					'Led design of production-ready hierarchy setup wizard, which cut onboarding time from 2 weeks to minutes',
+          'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
+					'Implemented scalable API that replaced legacy API, reducing processing times by 99.6% (hours to minutes)',
+					'Built 5 Azure Function microservices, enhancing data processing distribution & system availability',
+					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%',
 				]
 			},
 			{
@@ -33,9 +33,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Developed reusable Angular components for internal UI component library & design system',
-					'Revamped reporting API with new functionality for KPI lite model to reduce loading times',
-					'Decoupled functionality in AngularJS service to correctly show resolved cases for over 200 accounts',
+					'Created reusable Angular components for internal UI component library, supporting RTL & other configurations',
+					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by about 93%',
+          'Resolved bugs, decoupled functionality in legacy AngularJS code to fix resolved cases for 200+ accounts'
 				]
 			},
 			{
@@ -47,9 +47,9 @@ export const ResContent = {
 					end: 'Aug 2020'
 				},
 				bulletPoints: [
-					'Managed development of assets that generated over 16.6 million YouTube views for content creators',
+					'Managed development of assets that generated over 16.6 million YouTube views & $64,000 in revenue',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-          'Coordinated various departments to bundle assets and resources for a weekly deliverable',
+					'Coordinated various departments to bundle assets & resources for a weekly deliverable'
 				]
 			},
 			{
@@ -61,8 +61,7 @@ export const ResContent = {
 					end: 'Aug 2019'
 				},
 				bulletPoints: [
-					'Created a first-of-its-kind C# ASP.NET MVC web app with EPLAN’s API',
-					'Automated generation of electrical panel schematics, reducing design time from 30+ minutes to seconds',
+          'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
 					'Architected SQL Database schemas using Code First Migrations in EF6 to store schematic information'
 				]
 			}
@@ -71,47 +70,47 @@ export const ResContent = {
 	projects: {
 		title: 'Projects',
 		content: [
-      // {
-      //   title: 'TapIn',
-      //   info: 'NextJs, React Native, Typescript, TailindCSS/Nativewind, Expo, Solito',
-      //   dates: {
-      //     start: 'November 2023',
-      //     end: 'Present',
-      //   },
-      //   bulletPoints: [
-      //     'The native-first matchmaking app for short-term relocation',
-      //     'Shared component structure between web and native for fast, multi-platform development',
-      //     'Solito to handle routing across platforms'
-      //   ]
-      // },
+			// {
+			//   title: 'TapIn',
+			//   info: 'NextJs, React Native, Typescript, TailindCSS/Nativewind, Expo, Solito',
+			//   dates: {
+			//     start: 'November 2023',
+			//     end: 'Present',
+			//   },
+			//   bulletPoints: [
+			//     'The native-first matchmaking app for short-term relocation',
+			//     'Shared component structure between web and native for fast, multi-platform development',
+			//     'Solito to handle routing across platforms'
+			//   ]
+			// },
 			{
 				title: 'JourneyTodo',
-				info: 'SvelteKit (with SSR), Typescript, Sass, Supabase, Postgres, Vercel',
+        url: 'https://journeytodo.com',
+				info: 'SvelteKit, Typescript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
 				dates: {
 					start: 'Sept 2023',
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Goal based todo app inspired by Todoist with Supabase as data layer & auth layer',
-					'Implemented binary materialized paths using custom user index + goal id for scalable load times',
-					'Scripted postgres functions & triggers to automatically set indices & binary materialized paths',
-					'Integrated end-to-end tests for major user flows with Playwright',
-          'Prototyped components & screens in Figma to validate user experience before implementation',
+					'Goal-based todo app for breaking down goals into tasks that are measurable, actionable, and specific',
+          'Created design system & icon library in Figma & utilized CSS variables to implement system in code',
+          'Implemented scalable hierarchy system capable of loading 32 million nested goals in 0.633 seconds',
+          'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
 				]
 			},
-      // {
-      //   title: 'Wisdom Keeper',
-      //   info: ['Golang, Discord, Docker, Google Cloud'],
-      //   dates: {
-      //       start: 'Sept 2023',
-      //       end: 'Sept 2023',
-      //   },
-      //   bulletPoints: [
-      //     'Custom discord bot that manages messaging in a server full of admins',
-      //     'Automatically deletes message if a user posts too soon before a certain time',
-      //     'Deployed in a docker container on Google Cloud Compute Engine',
-      //   ]
-      // },
+			// {
+			//   title: 'Wisdom Keeper',
+			//   info: ['Golang, Discord, Docker, Google Cloud'],
+			//   dates: {
+			//       start: 'Sept 2023',
+			//       end: 'Sept 2023',
+			//   },
+			//   bulletPoints: [
+			//     'Custom discord bot that manages messaging in a server full of admins',
+			//     'Automatically deletes message if a user posts too soon before a certain time',
+			//     'Deployed in a docker container on Google Cloud Compute Engine',
+			//   ]
+			// },
 			{
 				title: 'Corgle',
 				info: 'React, Typescript, Sass, NestJS, Python, & MongoDB',
@@ -121,53 +120,73 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Built Wordle-like game for hackathon with the objective of guessing dog names based on images',
-					'Awarded Cigna’s Most Accessible Hack award for including alt text for 500 dog pictures',
+					'Awarded **Cigna’s Most Accessible Hack award** for including alt text for 500 dog pictures',
 					'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
 				]
 			},
-      {
-				title: 'Drafty',
-				info: ['Python', 'Flask', 'SQLite3', 'SQLAlchemy', 'Discord'],
-				dates: {
-					start: 'Oct 2020',
-					end: 'Dec 2020'
-				},
-				bulletPoints: [
-					'Custom Discord bot for creating & managing Pokemon Draft Leagues',
-					'Designed Flask web app for adding & managing users, Pokemon, & draft sheets',
-          'Integrated SQLAlchemy ORM into Discord bot code & flask code to read & write to SQLite3 database',
-          'Automated match score reporting for users & displayed leaderboards via Discord bot',
-					'Authored complete documentation of system design, including how to setup & run the web app & bot'
-				]
-			},
+			// {
+			// 	title: 'Drafty',
+			// 	info: ['Python', 'Flask', 'SQLite3', 'SQLAlchemy', 'Discord'],
+			// 	dates: {
+			// 		start: 'Oct 2020',
+			// 		end: 'Dec 2020'
+			// 	},
+			// 	bulletPoints: [
+			// 		'Custom Discord bot for creating & managing Pokemon Draft Leagues',
+			// 		'Designed Flask web app for adding & managing users, Pokemon, & draft sheets',
+			// 		'Integrated SQLAlchemy ORM into Discord bot code & flask code to read & write to SQLite3 database',
+			// 		'Automated match score reporting for users & displayed leaderboards via Discord bot',
+			// 	]
+			// }
 		]
 	},
 	skills: {
 		title: 'Skills',
 		items: [
 			{
-				name: 'Languages',
-				skills: ['Typescript', 'Python', 'HTML/CSS3/SASS', 'Java', 'C#', 'Postgres', 'MSSQL']
-			},
-			{
-				name: 'Frameworks',
-				skills: ['Angular', 'React', 'Svelte', 'SvelteKit', 'NextJS', '.NET 6']
-			},
-			{
-				name: 'Other',
 				skills: [
-					'REST',
-          'CI/CD',
+					'TypeScript',
+					'JavaScript',
+					'Python',
+					'HTML5',
+					'CSS3',
+					'Java',
+					'C#',
+					'Node',
+					'Postgres',
+					'MSSQL'
+				]
+			},
+			{
+				skills: [
+					'Angular',
+					'React',
+					'NextJS',
+					'Svelte',
+					'SvelteKit',
+					'Tailwind',
+					'SCSS',
+          'RxJs',
+					'Cypress',
+					'Playwright',
+					'Jest',
+          'Docker',
+					'.NET',
+          'Storybook'
+				]
+			},
+			{
+				skills: [
+          'Restful APIs',
+					'Microservices',
+					'Azure',
+					'CI/CD',
+					'Unit testing',
 					'Agile',
 					'Node',
 					'Git',
-          'SSR',
-					'Jest',
-					'Cypress',
-					'Playwright',
-					'Storybook',
-          'Figma',
-					'Azure',
+					'Server-side rendering',
+					'Figma'
 				]
 			}
 		]
