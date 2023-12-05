@@ -4,6 +4,8 @@
 
 	export let content;
 	export let headerType = 'default';
+
+	$: console.log(typeof content);
 </script>
 
 {#each content as c}
@@ -13,7 +15,7 @@
 			info={c['info'] ?? c['company']}
 			dates={c.dates}
 			location={c.location}
-      url={c.url}
+			url={c.url}
 			isOneLine={headerType === '1Liner' ? true : false}
 		/>
 		<Bullets items={c.bulletPoints}></Bullets>

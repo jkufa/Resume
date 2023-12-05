@@ -1,7 +1,7 @@
-<script>
-	import { convertMarkdownToHTML } from "./util";
+<script lang="ts">
+	import { convertMarkdownToHTML } from './util';
 
-	export let items = [];
+	export let items: string[] = [];
 </script>
 
 <ul class="bullet-points">

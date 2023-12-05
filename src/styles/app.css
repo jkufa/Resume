@@ -80,16 +80,16 @@ main {
 }
 
 .print-title {
-  display: none;
+	display: none;
 }
 
 @media print {
-  .default-title {
-    display: none;
-  }
-  .print-title {
-    display: initial !important;
-  }
+	.default-title {
+		display: none;
+	}
+	.print-title {
+		display: initial !important;
+	}
 	html {
 		height: var(--page-height);
 		width: var(--page-width);

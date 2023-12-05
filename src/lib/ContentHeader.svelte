@@ -5,21 +5,21 @@
 	export let info;
 	export let dates;
 	export let location = null;
-  export let url = null;
+	export let url = null;
 	export let isOneLine = false;
 </script>
 
 <div class="content-header">
 	<div class="content-start">
-    <div class="oneLiner">
-      <p class="title">
-        {title}
-      </p>
-      {#if url}
-      •
-      <a class="url" href="{url}">{url}</a>
-      {/if}
-    </div>
+		<div class="oneLiner">
+			<p class="title">
+				{title}
+			</p>
+			{#if url}
+				•
+				<a class="url" href={url}>{url}</a>
+			{/if}
+		</div>
 		<p class="info">
 			{#if Array.isArray(info) && info.length > 0}
 				{info.join(', ')}
@@ -44,8 +44,8 @@
 	.oneLiner {
 		display: flex;
 		flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-xs);
+		align-items: center;
+		gap: var(--spacing-xs);
 	}
 
 	.content-header {

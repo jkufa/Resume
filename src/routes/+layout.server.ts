@@ -1,0 +1,12 @@
+import type { LayoutServerLoad } from './$types';
+import { ResContent } from '../static/resContent';
+
+/**
+ *  To make the session available across the UI, including pages and layouts,
+ * it's crucial to pass the session as a parameter in the root layout's server load function.
+ */
+export const load: LayoutServerLoad = async () => {
+	return {
+		ResContent
+	};
+};

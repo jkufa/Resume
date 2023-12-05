@@ -3,7 +3,7 @@ export const ResContent = {
 		name: 'Jack Kufa',
 		title: 'Frontend Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
-		contacts: ['jack@kufa.io']
+		contacts: ['217-827-5454', 'jack@kufa.io']
 	},
 	experience: {
 		title: 'Experience',
@@ -18,10 +18,10 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Led design of production-ready hierarchy setup wizard, which cut onboarding time from 2 weeks to minutes',
-          'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
+					'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
 					'Implemented scalable API that replaced legacy API, reducing processing times by 99.6% (hours to minutes)',
 					'Built 5 Azure Function microservices, enhancing data processing distribution & system availability',
-					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%',
+					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%'
 				]
 			},
 			{
@@ -35,7 +35,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Created reusable Angular components for internal UI component library, supporting RTL & other configurations',
 					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by about 93%',
-          'Resolved bugs, decoupled functionality in legacy AngularJS code to fix resolved cases for 200+ accounts'
+					'Resolved bugs, decoupled functionality in legacy AngularJS code to fix resolved cases for 200+ accounts'
 				]
 			},
 			{
@@ -61,7 +61,7 @@ export const ResContent = {
 					end: 'Aug 2019'
 				},
 				bulletPoints: [
-          'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
+					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
 					'Architected SQL Database schemas using Code First Migrations in EF6 to store schematic information'
 				]
 			}
@@ -85,7 +85,7 @@ export const ResContent = {
 			// },
 			{
 				title: 'JourneyTodo',
-        url: 'https://journeytodo.com',
+				url: 'https://journeytodo.com',
 				info: 'SvelteKit, Typescript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
 				dates: {
 					start: 'Sept 2023',
@@ -93,9 +93,9 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Goal-based todo app for breaking down goals into tasks that are measurable, actionable, and specific',
-          'Created design system & icon library in Figma & utilized CSS variables to implement system in code',
-          'Implemented scalable hierarchy system capable of loading 32 million nested goals in 0.633 seconds',
-          'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
+					'Created design system & icon library in Figma & utilized CSS variables to implement system in code',
+					'Implemented scalable hierarchy system capable of loading 32 million nested goals in 0.633 seconds',
+					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week'
 				]
 			},
 			// {
@@ -123,7 +123,7 @@ export const ResContent = {
 					'Awarded **Cigna’s Most Accessible Hack award** for including alt text for 500 dog pictures',
 					'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
 				]
-			},
+			}
 			// {
 			// 	title: 'Drafty',
 			// 	info: ['Python', 'Flask', 'SQLite3', 'SQLAlchemy', 'Discord'],
@@ -166,18 +166,18 @@ export const ResContent = {
 					'SvelteKit',
 					'Tailwind',
 					'SCSS',
-          'RxJs',
+					'RxJs',
 					'Cypress',
 					'Playwright',
 					'Jest',
-          'Docker',
+					'Docker',
 					'.NET',
-          'Storybook'
+					'Storybook'
 				]
 			},
 			{
 				skills: [
-          'Restful APIs',
+					'Restful APIs',
 					'Microservices',
 					'Azure',
 					'CI/CD',
