@@ -1,9 +1,9 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Frontend Software Engineer',
+		title: 'Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
-		contacts: ['217-827-5454', 'jack@kufa.io']
+		contacts: ['jack@kufa.io']
 	},
 	experience: {
 		title: 'Experience',
@@ -34,7 +34,7 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Created reusable Angular components for internal UI component library, supporting RTL & other configurations',
-					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by about 93%',
+					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by 93%',
 					'Resolved bugs, decoupled functionality in legacy AngularJS code to fix resolved cases for 200+ accounts'
 				]
 			},
@@ -49,7 +49,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Managed development of assets that generated over 16.6 million YouTube views & $64,000 in revenue',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-					'Coordinated various departments to bundle assets & resources for a weekly deliverable'
+					'Coordinated with various departments to bundle assets & resources for a weekly deliverable'
 				]
 			},
 			{
@@ -62,7 +62,7 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
-					'Architected SQL Database schemas using Code First Migrations in EF6 to store schematic information'
+					'Architected SQL Database using Code First Migrations/Entity Framework 6 to store schematic information'
 				]
 			}
 		]
@@ -93,8 +93,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Goal-based todo app for breaking down goals into tasks that are measurable, actionable, and specific',
-					'Created design system & icon library in Figma & utilized CSS variables to implement system in code',
-					'Implemented scalable hierarchy system capable of loading 32 million nested goals in 0.633 seconds',
+					'Created design system & icon library in Figma & implement system in Svelte for reusable component library',
+					'Stored goals with hierarchical data & stress tested system, loading 32 million nested goals in 0.633 seconds',
 					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week'
 				]
 			},
@@ -150,6 +150,8 @@ export const ResContent = {
 					'Python',
 					'HTML5',
 					'CSS3',
+					'Tailwind',
+					'SCSS',
 					'Java',
 					'C#',
 					'Node',
@@ -164,8 +166,6 @@ export const ResContent = {
 					'NextJS',
 					'Svelte',
 					'SvelteKit',
-					'Tailwind',
-					'SCSS',
 					'RxJs',
 					'Cypress',
 					'Playwright',
