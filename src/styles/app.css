@@ -61,10 +61,6 @@ body {
 	color: var(--font-color);
 }
 
-#app {
-	width: 100%;
-	margin: 4rem auto;
-}
 main {
 	display: flex;
 	justify-content: center; /* Center horizontally */
@@ -99,7 +95,7 @@ main {
 		color: var(--font-body);
 		opacity: var(--opacity-s);
 	}
-	#app {
-		margin: 0;
+	.page {
+		margin: 0 !important;
 	}
 }
