@@ -1,0 +1,18 @@
+import type { LayoutServerLoad } from './$types';
+import { ResContent } from '../static/resContent';
+import { PHONE_NUMBER } from '$env/static/private';
+
+/**
+ *  To make the session available across the UI, including pages and layouts,
+ * it's crucial to pass the session as a parameter in the root layout's server load function.
+ */
+export const load: LayoutServerLoad = async () => {
+	let content = ResContent;
+	let contacts = content.header.contacts;
+	if (contacts.findIndex((el) => el === PHONE_NUMBER) === -1) {
+		content.header.contacts = [PHONE_NUMBER, ...content.header.contacts];
+	}
+	return {
+		ResContent
+	};
+};

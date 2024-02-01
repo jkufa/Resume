@@ -1,7 +1,4 @@
 <script>
-  // TODO: convert project to sveltekit
-  // import { PHONE_NUMBER } from '$env/static/private';
-
 	export let name;
 	export let title;
 	export let links = [];
