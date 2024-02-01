@@ -7,12 +7,13 @@ import { PHONE_NUMBER } from '$env/static/private';
  * it's crucial to pass the session as a parameter in the root layout's server load function.
  */
 export const load: LayoutServerLoad = async () => {
-	let content = ResContent;
-	let contacts = content.header.contacts;
-	if (contacts.findIndex((el) => el === PHONE_NUMBER) === -1) {
+	const content = ResContent;
+	const contacts = content.header.contacts;
+	if (PHONE_NUMBER && contacts.findIndex((el) => el === PHONE_NUMBER) === -1) {
 		content.header.contacts = [PHONE_NUMBER, ...content.header.contacts];
 	}
 	return {
 		ResContent
 	};
 };
+1
