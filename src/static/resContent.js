@@ -17,11 +17,13 @@ export const ResContent = {
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Led design of production-ready hierarchy setup wizard, which cut onboarding time from 2 weeks to minutes',
-					'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
-					'Implemented scalable API that replaced legacy API, reducing processing times by 99.6% (hours to minutes)',
-					'Built 5 Azure Function microservices, enhancing data processing distribution & system availability',
-					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%'
+					'Led design of production SaaS hierarchy setup wizard to cut onboarding time from 2 weeks to minutes',
+					'Replaced legacy system with scalable API & microservices, reducing processing times by 99.6% (hrs  to mins)',
+					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%',
+          'Scaffolded infrastructure for linting, testing, and deployment to streamline development & ensure code quality',
+          // 'Collaborated with design, product, & other engineers to provide high-value product enhancements',
+					// 'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
+          'Collaborated with engineers, designers, and product teams to identify & solve user pain points for a better UX'// on UI proof of concepts for stakeholder approval, and ensuring front-end alignment across teams for delightful customer experiences.'
 				]
 			},
 			{
@@ -33,9 +35,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Created reusable Angular components for internal UI component library, supporting RTL & other configurations',
 					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by 93%',
-					'Resolved bugs, decoupled functionality in legacy AngularJS code to fix resolved cases for 200+ accounts'
+					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
+					'Maintained large-scale B2B app & decoupled legacy AngularJS code to fix resolved cases for 200+ accounts'
 				]
 			},
 			{
@@ -47,7 +49,7 @@ export const ResContent = {
 					end: 'Aug 2020'
 				},
 				bulletPoints: [
-					'Managed development of assets that generated over 16.6 million YouTube views & $64,000 in revenue',
+					'Managed development of assets for creators that generated over 16.6 million unique views on YouTube',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
 					'Coordinated with various departments to bundle assets & resources for a weekly deliverable'
 				]
@@ -62,7 +64,7 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
-					'Architected SQL Database using Code First Migrations/Entity Framework 6 to store schematic information'
+					'Architected SQL database using Code First Migrations/Entity Framework 6 to store schematic information'
 				]
 			}
 		]
@@ -93,7 +95,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Goal-based todo app for breaking down goals into tasks that are measurable, actionable, and specific',
-					'Created design system & icon library in Figma & implement system in Svelte for reusable component library',
+          'Implemented API with SvelteKit\'s server-side rendering system to reduce overhead on client',
+					'Created design system & icon library in Figma & implemented reusable component library in Svelte',
 					'Stored goals with hierarchical data & stress tested system, loading 32 million nested goals in 0.633 seconds',
 					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week'
 				]
@@ -151,21 +154,20 @@ export const ResContent = {
 					'HTML5',
 					'CSS3',
 					'Tailwind',
-					'SCSS',
+					'Sass',
 					'Java',
 					'C#',
-					'Node',
 					'Postgres',
 					'MSSQL'
 				]
 			},
 			{
 				skills: [
-					'Angular',
-					'React',
+          'React',
 					'NextJS',
 					'Svelte',
 					'SvelteKit',
+					'Angular',
 					'RxJs',
 					'Cypress',
 					'Playwright',
