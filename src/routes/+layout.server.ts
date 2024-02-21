@@ -16,4 +16,4 @@ export const load: LayoutServerLoad = async () => {
 		ResContent
 	};
 };
-1
+1;
