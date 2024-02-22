@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Software Engineer',
+		title: 'Frontend Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Software Engineer',
+				title: 'Frontend Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -17,17 +17,19 @@ export const ResContent = {
 					end: 'Feb 2024'
 				},
 				bulletPoints: [
-					'Led design of production SaaS SPA hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
-					'Replaced legacy system with scalable API & microservices, reducing processing times by 99.6% (hrs  to mins)',
-					'Spearheaded end to end tests with Cypress & used fixtures/custom commands to reduce brittle tests by 93%',
-					'Scaffolded infrastructure for linting, testing, and deployment to streamline development & ensure code quality',
+					'Led implementation of Angular hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
+					'Replaced legacy system with scalable C# API & microservices for 99.6% faster processing times (hrs to mins)',
+          'Refactored Cypress tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
+          'Initiated customer interviews to validate product needs & iterated on onboarding UI based on feedback data',
+					'Scaffolded infrastructure for linting, testing, & deployment to streamline development & ensure code quality',
 					// 'Collaborated with design, product, & other engineers to provide high-value product enhancements',
 					// 'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
-					'Collaborated with engineers, designers, and product teams to identify & solve user pain points for a better UX' // on UI proof of concepts for stakeholder approval, and ensuring front-end alignment across teams for delightful customer experiences.'
+					// 'Collaborated with engineers, designers, and product teams to identify & solve user pain points for a better UX'
+          // on UI proof of concepts for stakeholder approval, and ensuring front-end alignment across teams for delightful customer experiences.'
 				]
 			},
 			{
-				title: 'Software Engineer Intern',
+				title: 'Frontend Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -37,7 +39,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by 93%',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
-					'Maintained production B2B app & delivered enhancements to fix resolved cases for 85000+ active users'
+					'Maintained production SaaS app, delivered enhancements, & fixed resolved cases for 85000+ active users'
 				]
 			},
 			{
@@ -65,7 +67,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
 					'Architected SQL database using Code First Migrations/Entity Framework 6 to store schematic information',
-					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, and maintain data contracts'
+					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts'
 				]
 			}
 		]
@@ -123,10 +125,10 @@ export const ResContent = {
 					end: 'April 2021'
 				},
 				bulletPoints: [
-					'Designed data analysis tool for improving at Super Smash Brother’s Melee gameplay',
+					'Built data analysis tool for improving at Super Smash Brother’s Melee gameplay',
 					'Integrated Slippi SDK to read match replay files & access every frame & gamestate',
 					'Engineered custom parsing algorithms to identify complex player movement techiques',
-					'Built express.js server to handle data ingestion and serve hydrated HTML with stats to the client'
+					'Built express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
 				]
 			}
 			// {
@@ -186,7 +188,7 @@ export const ResContent = {
 					'Java',
 					'C#',
 					'Postgres',
-					'MSSQL'
+					'MS SQL Server'
 				]
 			},
 			{
