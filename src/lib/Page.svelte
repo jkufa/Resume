@@ -31,7 +31,6 @@
 
 <style lang="scss">
 	.page {
-		margin-top: 4rem;
 		box-sizing: border-box;
 		padding: 0.5in;
 		width: 100%;

@@ -57,7 +57,6 @@ body {
 	flex-direction: column;
 	place-items: center;
 	background: var(--bg);
-	min-height: 100svh;
 	color: var(--font-color);
 }
 
@@ -65,6 +64,7 @@ main {
 	display: flex;
 	justify-content: center; /* Center horizontally */
 	align-items: center; /* Center vertically */
+	min-height: 100svh;
 }
 
 .bullet-points {
