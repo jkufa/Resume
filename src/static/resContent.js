@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Frontend Software Engineer',
+		title: 'Front End Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Frontend Software Engineer',
+				title: 'Front End Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -18,18 +18,16 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Led implementation of Angular hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
-					'Replaced legacy system with scalable C# API & microservices for 99.6% faster processing times (hrs to mins)',
+          'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
           'Refactored Cypress tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
-          'Initiated customer interviews to validate product needs & iterated on onboarding UI based on feedback data',
-					'Scaffolded infrastructure for linting, testing, & deployment to streamline development & ensure code quality',
-					// 'Collaborated with design, product, & other engineers to provide high-value product enhancements',
-					// 'Collaborated on UI proof of concepts, securing stakeholder approval & front-end alignment across teams',
-					// 'Collaborated with engineers, designers, and product teams to identify & solve user pain points for a better UX'
-          // on UI proof of concepts for stakeholder approval, and ensuring front-end alignment across teams for delightful customer experiences.'
+          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
+          'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
+					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
+          // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
 			{
-				title: 'Frontend Software Engineer Intern',
+				title: 'Front End Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -37,9 +35,11 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Updated reporting API business logic to support lightweight contract, reducing KPI card load times by 93%',
+					'Optimized reporting API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
-					'Maintained production SaaS app, delivered enhancements, & fixed resolved cases for 85000+ active users'
+					'Maintained & enhanced production SaaS app, delivering fixes and enhancements for over 85,000 active users'
+					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
+					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
 				]
 			},
 			{
@@ -53,7 +53,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Managed development of assets for creators that generated over 16.6 million unique views on YouTube',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-					'Coordinated with various departments to bundle assets & resources for a weekly deliverable'
+					'Coordinated with various departments to deliver bundled assets & resources in a weekly deliverable'
 				]
 			},
 			{
@@ -91,7 +91,7 @@ export const ResContent = {
 			{
 				title: 'Journey',
 				url: 'https://journeytodo.com',
-				info: 'SvelteKit, Typescript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
+				info: 'SvelteKit, TypeScript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
 				dates: {
 					start: 'Sept 2023',
 					end: 'Present'
@@ -119,18 +119,29 @@ export const ResContent = {
 			{
 				title: 'Shinegrab.tech',
 				url: 'https://github.com/mitchhit234/ShineGrabDotTech',
-				info: 'Slippi SDK, Javascript, Express.js, Top 5 Finish out of over 30 teams',
+				info: 'Slippi SDK, JavaScript, Express.js, Top 5 Finish out of over 30 teams',
 				dates: {
 					start: 'April 2021',
 					end: 'April 2021'
 				},
 				bulletPoints: [
-					'Built data analysis tool for improving at Super Smash Brother’s Melee gameplay',
-					'Integrated Slippi SDK to read match replay files & access every frame & gamestate',
-					'Engineered custom parsing algorithms to identify complex player movement techiques',
-					'Built express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
+					'Data analysis tool for improving at Super Smash Bros. Melee, leveraging Slippi SDK to read game replay files',
+					'Engineered custom game state parsing algorithms to identify & track complex player movement techniques',
+					'Implemented express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
 				]
-			}
+			},
+      // {
+      //   title: 'IoT Garden Sensor Dashboard',
+      //   url: '',
+      //   info: 'Vue2, Vuex, C++, Go, MQTT, Senior capstone project',
+      //   dates: {
+      //     start: 'Sept 2021',
+      //     end: 'Dec 2021'
+      //   },
+      //   bulletPoints: [
+      //     'Built dashboard using Vue2 + Vuex to manage garden sensors connected via MQTT Internet of Things system'
+      //   ]
+      // }
 			// {
 			//   title: 'Wisdom Keeper',
 			//   info: ['Golang, Discord, Docker, Google Cloud'],
@@ -152,9 +163,9 @@ export const ResContent = {
 			// 		end: 'April 2022'
 			// 	},
 			// 	bulletPoints: [
-			// 		'Built Wordle-like game for hackathon with the objective of guessing dog names based on images',
+			// 		'Wordle-inspired game with the objective of guessing dog names based on a set of images',
 			// 		'Awarded **Cigna’s Most Accessible Hack award** for including alt text for 500 dog pictures',
-			// 		'Scraped WeRateDogs® Tweets & translated data to JSON containing over 200 unique dogs'
+			// 		'Scraped WeRateDogs® Tweets to aggregate over 200 unique dogs & stored in MongoDb'
 			// 	]
 			// }
 			// {
@@ -193,6 +204,7 @@ export const ResContent = {
 			},
 			{
 				skills: [
+          // 'Vue2',
 					'React',
 					'NextJS',
 					'Svelte',
@@ -211,6 +223,7 @@ export const ResContent = {
 				skills: [
 					'RESTful APIs',
 					'Microservices',
+					// 'AWS',
 					'Azure',
 					'CI/CD',
 					'Unit testing',
