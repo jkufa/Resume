@@ -1,14 +1,14 @@
-<script>
-	export let name;
-	export let title;
-	export let links = [];
-	export let contacts = [];
+<script lang="ts">
+	export let name: string;
+	export let title: string;
+	export let links: string[] = [];
+	export let contacts: string[] = [];
 	/**
 	 * Check if string is formatted like a number
 	 * @param {string} str - the string to check
 	 * @returns boolean
 	 */
-	function isPhoneNumber(str) {
+	function isPhoneNumber(str: string) {
 		let sanitizedStr = str.replaceAll('-', '').replaceAll('+', '').replaceAll(' ', '');
 		if (parseInt(sanitizedStr)) {
 			return true;
@@ -21,14 +21,14 @@
 	 * @param {string} str - the string to check
 	 * @returns boolean
 	 */
-	function isEmail(str) {
+	function isEmail(str: string) {
 		if (str.includes('@') && str.includes('.')) {
 			return true;
 		}
 		return false;
 	}
 
-	function setContactHref(str) {
+	function setContactHref(str: string) {
 		if (isPhoneNumber(str)) {
 			return 'tel+' + str;
 		}
@@ -39,18 +39,18 @@
 	}
 </script>
 
-<header class="header">
+<header class="header flex flex-col md:flex-row md:justify-between md:align-baseline md:items-end">
 	<div class="content-start">
-		<h1 class="name">{name}</h1>
-		<p class="title">{title}</p>
+		<h1 class="font-bold text-header leading-none">{name}</h1>
+		<p class="title opacity-90">{title}</p>
 	</div>
 	<div class="content-end">
-		<p class="links">
+		<p class="links flex gap-1">
 			{#each links as link}
 				<a class="link" href="https://{link}">{link}</a>
 			{/each}
 		</p>
-		<p class="contacts">
+		<p class="contacts flex gap-1 md:justify-end">
 			{#each contacts as contact}
 				<a class="contact" href={setContactHref(contact)}>{contact}</a>
 			{/each}
@@ -58,29 +58,15 @@
 	</div>
 </header>
 
-<style lang="scss">
-	.header {
-		display: flex;
-		align-items: last baseline;
-		justify-content: space-between;
-
-		.name {
-			font-size: var(--font-header);
-			line-height: calc(var(--font-header) / 1.2);
-		}
+<style lang="postcss">
 
 		.links,
 		.contacts {
-			display: flex;
-			gap: var(--spacing-xs);
-			justify-content: flex-end;
-
 			& a:not(:last-child)::after {
 				display: inline-block;
-				margin-inline-start: var(--spacing-xs);
+				margin-inline-start: theme(margin.1);
 				content: '/';
 				text-decoration: none !important;
 			}
 		}
-	}
 </style>

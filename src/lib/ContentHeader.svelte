@@ -1,26 +1,26 @@
-<script>
+<script lang="ts">
 	import { formatDateRange } from './util';
 
-	export let title;
-	export let info;
-	export let dates;
-	export let location = null;
-	export let url = null;
+	export let title: string;
+	export let info: string | Array<string>;
+	export let dates: { start: string, end: string };
+	export let location: string | null = null;
+	export let url: string | null = null;
 	export let isOneLine = false;
 </script>
 
-<div class="content-header">
+<div class="content-header md:flex justify-between">
 	<div class="content-start">
-		<div class="oneLiner">
-			<p class="title">
+		<div class="oneLiner flex gap-1 flex-row flex-wrap">
+			<p class="title font-bold">
 				{title}
 			</p>
 			{#if url}
-				•
+				<span class="leading-tight">•</span>
 				<a class="url" href={url}>{url}</a>
 			{/if}
 		</div>
-		<p class="info">
+		<p class="info opacity-75">
 			{#if Array.isArray(info) && info.length > 0}
 				{info.join(', ')}
 			{:else}
@@ -28,45 +28,14 @@
 			{/if}
 		</p>
 	</div>
-	<div class="content-end">
-		<p class="dates">
+	<div class="flex flex-row-reverse justify-between md:flex-col md:gap-0" class:!flex-row={!location}>
+		<p class="dates opacity-75">
 			{formatDateRange(dates.start, dates.end)}
 		</p>
 		{#if location && !isOneLine}
-			<p class="location">
+			<p class="location opacity-75 text-end">
 				{location}
 			</p>
 		{/if}
 	</div>
 </div>
-
-<style lang="scss">
-	.oneLiner {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		gap: var(--spacing-xs);
-	}
-
-	.content-header {
-		display: flex;
-		justify-content: space-between;
-	}
-	.content-end {
-		p {
-			display: flex;
-			gap: var(--spacing-xs);
-			justify-content: flex-end;
-		}
-	}
-	.title {
-		font-weight: 600;
-	}
-	.info {
-		opacity: var(--opacity-s);
-	}
-
-	.content-end {
-		opacity: var(--opacity-s);
-	}
-</style>

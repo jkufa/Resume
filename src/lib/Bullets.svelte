@@ -4,7 +4,7 @@
 	export let items: string[] = [];
 </script>
 
-<ul class="bullet-points">
+<ul class="list-disc list-inside">
 	{#each items as item}
 		<li>{@html convertMarkdownToHTML(item)}</li>
 	{/each}

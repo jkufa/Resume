@@ -1,15 +1,14 @@
-<script>
+<script lang="ts">
 	import Bullets from './Bullets.svelte';
 	import ContentHeader from './ContentHeader.svelte';
 
 	export let content;
 	export let headerType = 'default';
 
-	$: console.log(typeof content);
 </script>
 
 {#each content as c}
-	<div class="container">
+	<div class="mb-3 last-of-type:mb-0 flex flex-col gap-1">
 		<ContentHeader
 			title={c.title}
 			info={c['info'] ?? c['company']}
@@ -21,15 +20,3 @@
 		<Bullets items={c.bulletPoints}></Bullets>
 	</div>
 {/each}
-
-<style lang="scss">
-	.container {
-		display: flex;
-		flex-direction: column;
-		gap: var(--spacing-s);
-
-		&:not(:last-child) {
-			margin-bottom: var(--spacing-xl);
-		}
-	}
-</style>

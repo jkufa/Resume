@@ -33,7 +33,7 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 </svelte:head>
-<main>
+<main class="flex min-h-svh items-center justify-center">
 	<Page>
 		<Header {name} {title} {contacts} {links}></Header>
 		<Skills title={skills.title} items={skills.items} />
