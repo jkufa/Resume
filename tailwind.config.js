@@ -11,7 +11,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'sans': ['Helvetica Neue', 'Helvetica', 'Arial', ...defaultTheme.fontFamily.sans],
+        // add Helvetica Neue
+        'sans': ['Helvetica', 'Arial', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         'A4': '8.5in',
