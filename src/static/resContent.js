@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Front End Software Engineer',
+		title: 'Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Front End Software Engineer',
+				title: 'Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -27,7 +27,7 @@ export const ResContent = {
 				]
 			},
 			{
-				title: 'Front End Software Engineer Intern',
+				title: 'Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
