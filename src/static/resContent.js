@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Software Engineer',
+		title: 'Front End Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Software Engineer',
+				title: 'Front End Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -17,17 +17,17 @@ export const ResContent = {
 					end: 'Feb 2024'
 				},
 				bulletPoints: [
-					'Led implementation of Angular hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
+					'Led design & implementation of SaaS web app for new clients, cutting onboarding time from 2 weeks to minutes',
+          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
+					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
           'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
           'Refactored Cypress tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
-          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
           'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
-					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
 			{
-				title: 'Software Engineer Intern',
+				title: 'Front End Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -35,8 +35,8 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Optimized reporting API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
+					'Optimized reporting API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
 					'Maintained & enhanced production SaaS app, delivering fixes and enhancements for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
