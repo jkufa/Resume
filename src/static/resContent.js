@@ -17,12 +17,18 @@ export const ResContent = {
 					end: 'Feb 2024'
 				},
 				bulletPoints: [
-					'Led implementation of Angular hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
-          'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
-          'Refactored Cypress tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
+       // 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz',
+          // 'Architected and developed critical features for  Credit Trading Platform, including supporting different asset types, implementing trade calculations, and displaying key metrics.',
+          // 'Implemented functionality to support Investment Grade Bonds in the platform, receiving iterative feedback from users and delivering fixes and changes as needed.',
+          // 'Worked in an Agile environment with developers, technical lead, Quality Automation team, Product Owner, and business users to generate well-documented, reliably coded, helpful features in C#/.NET and Angular.',
+          // 'Used SQL to edit database schema + data and edit stored procedures as necessary for new features.',
+          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
+					'Architected & implemented key functionality in TypeScript/Angular for client onboarding wizard, including state management & saving progress via local storage, cutting client onboarding time from 2 weeks to minutes',
+          'Refactored end-to-end Cypress tests into reusable suite using JSON fixures and custom commands, resulting in more coverage, less code & dev time, & 93% fewer brittle tests',
+					'Owned team linting, testing, & CI/CD cloud deployment infrastructure to streamline development, ensure code quality, and handle deployments to Azure across 4 different environments',
+          'Delivered enhancements to SaaS TypeScript/Angular/NX micro frontend prototype, including functionality for client admins to add, view, and delete their users, improving UX',
           'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
           'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
-					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
@@ -35,7 +41,7 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Optimized reporting API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
+					'Optimized reporting API business logic by implementing a lite model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
 					'Maintained & enhanced production SaaS app, delivering fixes and enhancements for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
@@ -66,7 +72,7 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
-					'Architected SQL database using Code First Migrations/Entity Framework 6 to store schematic information',
+					'Architected MSSQL database using Code First Migrations/Entity Framework 6 to store schematic configurations',
 					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts'
 				]
 			}
@@ -97,8 +103,9 @@ export const ResContent = {
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Goal tracking app designed to make it easier to achieve more with less clutter',
-					'Stored goals with hierarchical data & stress tested system, loading 32 million nested goals in 0.633 seconds',
+					// 'Goal tracking app designed to make it easier to achieve more with less clutter',
+          'Stored binary materialized paths for goals in Postgres database to handle hierarchies of nested sub-goals & support custom ordering, resulting in no processing overhead on server or client & < 1s load times for 32M goals',
+					// 'Stress tested system performance, loading 32 million nested goals in 0.633 seconds',
 					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
 					'Created design system & icon library in Figma & implemented reusable component library in Svelte'
 					// 'Utilized SvelteKit\'s server-side system to improve SEO and reduce client overhead on initial load',
@@ -116,20 +123,20 @@ export const ResContent = {
 			//     'Fast, accessible & responsive personal website to showcase personality, projects & skills.'
 			//   ]
 			// }
-			{
-				title: 'Shinegrab.tech',
-				url: 'https://github.com/mitchhit234/ShineGrabDotTech',
-				info: 'Slippi SDK, JavaScript, Express.js, Top 5 Finish out of over 30 teams',
-				dates: {
-					start: 'April 2021',
-					end: 'April 2021'
-				},
-				bulletPoints: [
-					'Data analysis tool for improving at Super Smash Bros. Melee, leveraging Slippi SDK to read game replay files',
-					'Engineered custom game state parsing algorithms to identify & track complex player movement techniques',
-					'Implemented express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
-				]
-			},
+			// {
+			// 	title: 'Shinegrab.tech',
+			// 	url: 'https://github.com/mitchhit234/ShineGrabDotTech',
+			// 	info: 'Slippi SDK, JavaScript, Express.js, Top 5 Finish out of over 30 teams',
+			// 	dates: {
+			// 		start: 'April 2021',
+			// 		end: 'April 2021'
+			// 	},
+			// 	bulletPoints: [
+			// 		'Data analysis tool for improving at Super Smash Bros. Melee, leveraging Slippi SDK to read game replay files',
+			// 		'Engineered custom game state parsing algorithms to identify & track complex player movement techniques',
+			// 		'Implemented express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
+			// 	]
+			// },
       // {
       //   title: 'IoT Garden Sensor Dashboard',
       //   url: '',
@@ -191,13 +198,13 @@ export const ResContent = {
 				skills: [
 					'TypeScript',
 					'JavaScript',
+					'C#',
 					'Python',
 					'HTML5',
 					'CSS3',
 					'Tailwind',
 					'Sass',
 					'Java',
-					'C#',
 					'Postgres',
 					'MS SQL Server'
 				]
@@ -205,17 +212,16 @@ export const ResContent = {
 			{
 				skills: [
           // 'Vue2',
+					'Angular 16+',
+					'.NET 6+',
 					'React',
 					'NextJS',
 					'Svelte',
 					'SvelteKit',
-					'Angular',
 					'RxJs',
 					'Cypress',
 					'Playwright',
 					'Jest',
-					'Docker',
-					'.NET',
 					'Storybook'
 				]
 			},
@@ -231,6 +237,7 @@ export const ResContent = {
 					'Node',
 					'Express.js',
 					'Git',
+					'Docker',
 					'Figma'
 				]
 			}
