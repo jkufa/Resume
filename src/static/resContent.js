@@ -24,11 +24,11 @@ export const ResContent = {
           // 'Used SQL to edit database schema + data and edit stored procedures as necessary for new features.',
           'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
 					'Architected & implemented key functionality in TypeScript/Angular for client onboarding wizard, including state management & saving progress via local storage, cutting client onboarding time from 2 weeks to minutes',
-          'Refactored end-to-end Cypress tests into reusable suite using JSON fixures and custom commands, resulting in more coverage, less code & dev time, & 93% fewer brittle tests',
-					'Owned team linting, testing, & CI/CD cloud deployment infrastructure to streamline development, ensure code quality, and handle deployments to Azure across 4 different environments',
-          'Delivered enhancements to SaaS TypeScript/Angular/NX micro frontend prototype, including functionality for client admins to add, view, and delete their users, improving UX',
-          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
-          'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
+          'Refactored end-to-end Cypress tests into reusable suite using JSON fixtures & custom commands, resulting in more coverage, less code & dev time, & 93% fewer brittle tests',
+					'Owned team linting, testing, & CI/CD cloud deployment infrastructure to streamline development, ensure code quality, & handle deployments to Azure across 4 different environments',
+          'Delivered enhancements to SaaS TypeScript/Angular/NX micro-frontend prototype, including updates to localization framework & adding functionality for client admins to view/manage their users, improving UX',
+          // 'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
+          // 'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
@@ -41,9 +41,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Optimized reporting API business logic by implementing a lite model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
+					'Optimized reporting C# REST API business logic by implementing a lite model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
+          'Maintained & enhanced production JavaScript/AngularJS app with over 85,000 active users, including a critical fix for case management statuses',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
-					'Maintained & enhanced production SaaS app, delivering fixes and enhancements for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
 				]
@@ -73,7 +73,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
 					'Architected MSSQL database using Code First Migrations/Entity Framework 6 to store schematic configurations',
-					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts'
+					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts',
 				]
 			}
 		]
@@ -97,18 +97,20 @@ export const ResContent = {
 			{
 				title: 'Journey',
 				url: 'https://journeytodo.com',
-				info: 'SvelteKit, TypeScript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
+				info: 'SvelteKit, TypeScript, Sass/SCSS, Supabase, Supabase Auth, PostgreSQL, Vercel, Playwright',
 				dates: {
 					start: 'Sept 2023',
 					end: 'Present'
 				},
 				bulletPoints: [
 					// 'Goal tracking app designed to make it easier to achieve more with less clutter',
-          'Stored binary materialized paths for goals in Postgres database to handle hierarchies of nested sub-goals & support custom ordering, resulting in no processing overhead on server or client & < 1s load times for 32M goals',
+          'Integrated Google Lighthouse into CI/CD pipeline to automate accessibility & performance checks across pages',
+					'Utilized SvelteKit\'s server-side rendering to improve SEO, reduce initial client overhead, & ensure safe handling of JWT tokens',
+          'Stored binary materialized paths for goals in PostgreSQL database to handle hierarchies of nested sub-goals & support custom ordering, resulting in no processing overhead on server or client & < 1s load times for 32M goals',
 					// 'Stress tested system performance, loading 32 million nested goals in 0.633 seconds',
-					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
-					'Created design system & icon library in Figma & implemented reusable component library in Svelte'
-					// 'Utilized SvelteKit\'s server-side system to improve SEO and reduce client overhead on initial load',
+					// 'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
+          // 'Created design system & icon library in Figma & implemented reusable component library in Svelte + Storybook',
+					// 'Created design system & icon library in Figma & implemented reusable component library in Svelte',
 				]
 			},
 			// {
@@ -205,7 +207,7 @@ export const ResContent = {
 					'Tailwind',
 					'Sass',
 					'Java',
-					'Postgres',
+					'PostgreSQL',
 					'MS SQL Server'
 				]
 			},
