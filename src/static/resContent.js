@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Frontend Software Engineer',
+		title: 'Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Frontend Software Engineer',
+				title: 'Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -17,18 +17,18 @@ export const ResContent = {
 					end: 'Feb 2024'
 				},
 				bulletPoints: [
+          'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
 					'Led design & implementation of SaaS TypeScript/Angular app, cutting onboarding time from 2 weeks to minutes',
           'Refactored Cypress unit tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
-          'Delivered enhancements to TypeScript/Angular/NX micro frontend prototype, improving UX for user management',
-          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
-          'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
 					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
-          // 'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
+          // 'Delivered enhancements to TypeScript/Angular/NX micro frontend prototype, improving UX for user management',
+          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
+          'Developed Python CLI÷ tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
 			{
-				title: 'Frontend Software Engineer Intern',
+				title: 'Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -36,9 +36,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
+					'Optimized C# API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
 					'Delivered bug fixes & enhancements to production JavaScript/AngularJS app for over 85,000 active users',
 					'Developed TypeScript/Angular UI components & Storybook stories for design system, cutting dev time by 33%',
-					'Optimized C# API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
 				]
@@ -54,7 +54,7 @@ export const ResContent = {
 				bulletPoints: [
 					'Managed development of assets for creators that generated over 16.6 million unique views on YouTube',
 					'Developed in large enterprise Java codebase & automated plugin deployment to servers with Maven',
-					'Coordinated with various departments to deliver bundled assets & resources in a weekly deliverable'
+					'Coordinated with various departments to deliver bundled assets & resources in a weekly deliverable',
 				]
 			},
 			{
@@ -67,8 +67,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
+					'Built C# ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts',
 					'Architected SQL database using Code First Migrations/Entity Framework 6 to store schematic information',
-					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts'
 				]
 			}
 		]
@@ -192,13 +192,13 @@ export const ResContent = {
 				skills: [
 					'TypeScript',
 					'JavaScript',
+					'C#',
 					'HTML5',
 					'CSS3',
 					'Tailwind',
 					'Sass',
 					'Python',
 					'Java',
-					'C#',
 					'Postgres',
 					'MS SQL Server'
 				]
@@ -206,6 +206,8 @@ export const ResContent = {
 			{
 				skills: [
           // 'Vue2',
+					'.NET',
+					'.NET Core',
 					'Svelte',
 					'SvelteKit',
 					'Angular',
@@ -216,18 +218,17 @@ export const ResContent = {
 					'Cypress',
 					'Playwright',
 					'Jest',
-					'Docker',
-					'.NET',
 				]
 			},
 			{
 				skills: [
 					'RESTful APIs',
 					'Microservices',
+					'Unit testing',
 					// 'AWS',
 					'Azure',
 					'CI/CD',
-					'Unit testing',
+					'Docker',
 					'Agile',
 					'Node',
 					'Express.js',
