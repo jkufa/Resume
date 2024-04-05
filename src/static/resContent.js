@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Software Engineer',
+		title: 'Front End Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Software Engineer',
+				title: 'Front End Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -22,18 +22,18 @@ export const ResContent = {
           // 'Implemented functionality to support Investment Grade Bonds in the platform, receiving iterative feedback from users and delivering fixes and changes as needed.',
           // 'Worked in an Agile environment with developers, technical lead, Quality Automation team, Product Owner, and business users to generate well-documented, reliably coded, helpful features in C#/.NET and Angular.',
           // 'Used SQL to edit database schema + data and edit stored procedures as necessary for new features.',
-					'Architected & implemented key functionality in TypeScript/Angular for client onboarding wizard, including state management & saving progress via local storage, cutting client onboarding time from 2 weeks to minutes',
-          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
-          'Refactored end-to-end Cypress tests into reusable suite using JSON fixtures & custom commands, resulting in more coverage, less code & dev time, & 93% fewer brittle tests',
-					'Owned team linting, testing, & CI/CD pipelines to streamline development, ensure code quality, & handle deployments to Azure cloud across 4 different environments',
+					'Architected & implemented key functionality in TypeScript/Angular client onboarding wizard, including state management system & user session saving service, cutting client onboarding time from 2 weeks to minutes',
+          'Refactored end-to-end Cypress tests into reusable suite using JSON fixtures & custom commands, resulting in more coverage for less code   & 93% fewer brittle tests',
           'Delivered enhancements to SaaS TypeScript/Angular/NX micro-frontend prototype, including updates to localization framework & adding functionality for client admins to view/manage their users, improving UX',
+          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
+					'Owned team linting, testing, & CI/CD pipelines to streamline development, ensure code quality, & handle deployments to Azure cloud resources across 4 different environments',
           // 'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
           // 'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
 			{
-				title: 'Software Engineer Intern',
+				title: 'Front End Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -104,9 +104,9 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					// 'Goal tracking app designed to make it easier to achieve more with less clutter',
-          'Stored binary materialized paths for goals in PostgreSQL database to handle hierarchies of nested sub-goals & support custom ordering, resulting in no processing overhead on server or client & < 1s load times for 32M goals',
+          'Stored binary materialized paths for goals in PostgreSQL database to handle hierarchies of nested sub-goals & support custom ordering, resulting in load times under 1 second for 32 million goals',
           'Integrated Google Lighthouse into CI/CD pipeline to automate accessibility & performance checks across pages',
-					'Utilized SvelteKit\'s server-side rendering to improve SEO, reduce initial overhead on the client',
+					'Utilized SvelteKit\'s server-side rendering to improve SEO & reduce initial overhead on the client',
           // 'Used Supabase Auth to handle user management, generating JWT access tokens ',
 					// 'Stress tested system performance, loading 32 million nested goals in 0.633 seconds',
 					// 'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
@@ -215,12 +215,13 @@ export const ResContent = {
 			{
 				skills: [
           // 'Vue2',
-					'Angular 16+',
-					'.NET 6+',
 					'React',
-					'NextJS',
+					'Angular',
+          'Vue',
 					'Svelte',
 					'SvelteKit',
+					'NextJS',
+					'.NET',
 					'RxJs',
 					'Cypress',
 					'Playwright',
