@@ -22,10 +22,10 @@ export const ResContent = {
           // 'Implemented functionality to support Investment Grade Bonds in the platform, receiving iterative feedback from users and delivering fixes and changes as needed.',
           // 'Worked in an Agile environment with developers, technical lead, Quality Automation team, Product Owner, and business users to generate well-documented, reliably coded, helpful features in C#/.NET and Angular.',
           // 'Used SQL to edit database schema + data and edit stored procedures as necessary for new features.',
-          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
 					'Architected & implemented key functionality in TypeScript/Angular for client onboarding wizard, including state management & saving progress via local storage, cutting client onboarding time from 2 weeks to minutes',
+          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
           'Refactored end-to-end Cypress tests into reusable suite using JSON fixtures & custom commands, resulting in more coverage, less code & dev time, & 93% fewer brittle tests',
-					'Owned team linting, testing, & CI/CD cloud deployment infrastructure to streamline development, ensure code quality, & handle deployments to Azure across 4 different environments',
+					'Owned team linting, testing, & CI/CD pipelines to streamline development, ensure code quality, & handle deployments to Azure cloud across 4 different environments',
           'Delivered enhancements to SaaS TypeScript/Angular/NX micro-frontend prototype, including updates to localization framework & adding functionality for client admins to view/manage their users, improving UX',
           // 'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
           // 'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
@@ -41,8 +41,8 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Optimized reporting C# REST API business logic by implementing a lite model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
-          'Maintained & enhanced production JavaScript/AngularJS app with over 85,000 active users, including a critical fix for case management statuses',
+          'Maintained & enhanced production JavaScript/AngularJS app with over 85,000 active users, improving unit test coverage & fixing case management statuses for all dashboards',
+					'Optimized reporting C# REST API business logic by implementing a \'lite\' model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
@@ -104,9 +104,10 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					// 'Goal tracking app designed to make it easier to achieve more with less clutter',
-          'Integrated Google Lighthouse into CI/CD pipeline to automate accessibility & performance checks across pages',
-					'Utilized SvelteKit\'s server-side rendering to improve SEO, reduce initial client overhead, & ensure safe handling of JWT tokens',
           'Stored binary materialized paths for goals in PostgreSQL database to handle hierarchies of nested sub-goals & support custom ordering, resulting in no processing overhead on server or client & < 1s load times for 32M goals',
+          'Integrated Google Lighthouse into CI/CD pipeline to automate accessibility & performance checks across pages',
+					'Utilized SvelteKit\'s server-side rendering to improve SEO, reduce initial overhead on the client',
+          // 'Used Supabase Auth to handle user management, generating JWT access tokens ',
 					// 'Stress tested system performance, loading 32 million nested goals in 0.633 seconds',
 					// 'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
           // 'Created design system & icon library in Figma & implemented reusable component library in Svelte + Storybook',
