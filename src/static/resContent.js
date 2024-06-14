@@ -1,7 +1,7 @@
 export const ResContent = {
 	header: {
 		name: 'Jack Kufa',
-		title: 'Software Engineer',
+		title: 'Front End Software Engineer',
 		links: ['kufa.io', 'github.com/jkufa', 'linkedin.com/in/jackkufa'],
 		contacts: ['jack@kufa.io']
 	},
@@ -9,7 +9,7 @@ export const ResContent = {
 		title: 'Experience',
 		content: [
 			{
-				title: 'Software Engineer',
+				title: 'Front End Software Engineer',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -17,17 +17,23 @@ export const ResContent = {
 					end: 'Feb 2024'
 				},
 				bulletPoints: [
-					'Led implementation of Angular hierarchy setup wizard & cut onboarding time from 2 weeks to minutes',
-          'Engineered scalable C# APIs & microservices to replace legacy systems & improved processing times by 99.6%',
-          'Refactored Cypress tests into reusable suite, resulting in more coverage, less code, & 93% fewer brittle tests',
-          'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
-          'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
-					'Owned team linting, testing, & CI/CD deployment infrastructure to streamline development & ensure code quality',
+       // 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz',
+          // 'Architected and developed critical features for  Credit Trading Platform, including supporting different asset types, implementing trade calculations, and displaying key metrics.',
+          // 'Implemented functionality to support Investment Grade Bonds in the platform, receiving iterative feedback from users and delivering fixes and changes as needed.',
+          // 'Worked in an Agile environment with developers, technical lead, Quality Automation team, Product Owner, and business users to generate well-documented, reliably coded, helpful features in C#/.NET and Angular.',
+          // 'Used SQL to edit database schema + data and edit stored procedures as necessary for new features.',
+					'Architected & implemented key functionality in TypeScript/Angular client onboarding wizard, including state management system & user session saving service, cutting client onboarding time from 2 weeks to minutes',
+          'Refactored end-to-end Cypress tests into reusable suite using JSON fixtures & custom commands, resulting in more coverage for less code   & 93% fewer brittle tests',
+          'Delivered enhancements to SaaS TypeScript/Angular/NX micro-frontend prototype, including updates to localization framework & adding functionality for client admins to view/manage their users, improving UX',
+          'Engineered scalable C# REST APIs & microservices to replace critical legacy systems for ingesting & processing company hierarchy data, improving processing times by 99.6%',
+					'Owned team linting, testing, & CI/CD pipelines to streamline development, ensure code quality, & handle deployments to Azure cloud resources across 4 different environments',
+          // 'Conducted customer interviews to validate product needs, using feedback data to iteratively enhance product UI',
+          // 'Developed Python CLI tool for rapid comparison of CSVs with 1000+ rows, significantly improving QA efficiency',
           // 'Integrated Pendo Analytics into production SaaS app with custom HTML attributes for resilient feature tracking',
 				]
 			},
 			{
-				title: 'Software Engineer Intern',
+				title: 'Front End Software Engineer Intern',
 				company: 'Service Management Group',
 				location: 'Kansas City, MO',
 				dates: {
@@ -35,9 +41,9 @@ export const ResContent = {
 					end: 'Aug 2021'
 				},
 				bulletPoints: [
-					'Optimized reporting API business logic, resulting in a smaller payload & 93% reduction in KPI card load times',
+          'Maintained & enhanced production JavaScript/AngularJS app with over 85,000 active users, improving unit test coverage & fixing case management statuses for all dashboards',
+					'Optimized reporting C# REST API business logic by implementing a \'lite\' model for large sets of KPI data, resulting in a smaller payload & 93% reduction in page load times',
 					'Developed reusable, responsive Angular UI components for internal design system, cutting dev time by 33%',
-					'Maintained & enhanced production SaaS app, delivering fixes and enhancements for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app based on user-reported issues for over 85,000 active users'
 					// 'Maintained & enhanced production SaaS app, addressing user-reported issues & delivering improvements such as resolved cases for over 85,000 active users'
 				]
@@ -66,8 +72,8 @@ export const ResContent = {
 				},
 				bulletPoints: [
 					'Automated building EPLAN electrical panel schematics, reducing design time by about 30 minutes per schematic',
-					'Architected SQL database using Code First Migrations/Entity Framework 6 to store schematic information',
-					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts'
+					'Architected MSSQL database using Code First Migrations/Entity Framework 6 to store schematic configurations',
+					'Built ASP.NET MVC Web Application to serve views, handle schematic requests, & maintain data contracts',
 				]
 			}
 		]
@@ -91,17 +97,21 @@ export const ResContent = {
 			{
 				title: 'Journey',
 				url: 'https://journeytodo.com',
-				info: 'SvelteKit, TypeScript, Sass, Supabase, Supabase Auth, Postgres, Vercel, Playwright',
+				info: 'SvelteKit, TypeScript, Sass/SCSS, Supabase, Supabase Auth, PostgreSQL, Vercel, Playwright',
 				dates: {
 					start: 'Sept 2023',
 					end: 'Present'
 				},
 				bulletPoints: [
-					'Goal tracking app designed to make it easier to achieve more with less clutter',
-					'Stored goals with hierarchical data & stress tested system, loading 32 million nested goals in 0.633 seconds',
-					'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
-					'Created design system & icon library in Figma & implemented reusable component library in Svelte'
-					// 'Utilized SvelteKit\'s server-side system to improve SEO and reduce client overhead on initial load',
+					// 'Goal tracking app designed to make it easier to achieve more with less clutter',
+          'Stored binary materialized paths for goals in PostgreSQL database to handle hierarchies of nested sub-goals & support custom ordering, resulting in load times under 1 second for 32 million goals',
+          'Integrated Google Lighthouse into CI/CD pipeline to automate accessibility & performance checks across pages',
+					'Utilized SvelteKit\'s server-side rendering to improve SEO & reduce initial overhead on the client',
+          // 'Used Supabase Auth to handle user management, generating JWT access tokens ',
+					// 'Stress tested system performance, loading 32 million nested goals in 0.633 seconds',
+					// 'Implemented auto-archival feature to encourage clutter-free goals, archiving tasks after the start of the next week',
+          // 'Created design system & icon library in Figma & implemented reusable component library in Svelte + Storybook',
+					// 'Created design system & icon library in Figma & implemented reusable component library in Svelte',
 				]
 			},
 			// {
@@ -116,20 +126,20 @@ export const ResContent = {
 			//     'Fast, accessible & responsive personal website to showcase personality, projects & skills.'
 			//   ]
 			// }
-			{
-				title: 'Shinegrab.tech',
-				url: 'https://github.com/mitchhit234/ShineGrabDotTech',
-				info: 'Slippi SDK, JavaScript, Express.js, Top 5 Finish out of over 30 teams',
-				dates: {
-					start: 'April 2021',
-					end: 'April 2021'
-				},
-				bulletPoints: [
-					'Data analysis tool for improving at Super Smash Bros. Melee, leveraging Slippi SDK to read game replay files',
-					'Engineered custom game state parsing algorithms to identify & track complex player movement techniques',
-					'Implemented express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
-				]
-			},
+			// {
+			// 	title: 'Shinegrab.tech',
+			// 	url: 'https://github.com/mitchhit234/ShineGrabDotTech',
+			// 	info: 'Slippi SDK, JavaScript, Express.js, Top 5 Finish out of over 30 teams',
+			// 	dates: {
+			// 		start: 'April 2021',
+			// 		end: 'April 2021'
+			// 	},
+			// 	bulletPoints: [
+			// 		'Data analysis tool for improving at Super Smash Bros. Melee, leveraging Slippi SDK to read game replay files',
+			// 		'Engineered custom game state parsing algorithms to identify & track complex player movement techniques',
+			// 		'Implemented express.js server to handle data ingestion & serve hydrated HTML with stats to the client'
+			// 	]
+			// },
       // {
       //   title: 'IoT Garden Sensor Dashboard',
       //   url: '',
@@ -191,14 +201,14 @@ export const ResContent = {
 				skills: [
 					'TypeScript',
 					'JavaScript',
+					'C#',
 					'Python',
 					'HTML5',
 					'CSS3',
 					'Tailwind',
 					'Sass',
 					'Java',
-					'C#',
-					'Postgres',
+					'PostgreSQL',
 					'MS SQL Server'
 				]
 			},
@@ -206,16 +216,16 @@ export const ResContent = {
 				skills: [
           // 'Vue2',
 					'React',
-					'NextJS',
+					'Angular',
+          'Vue',
 					'Svelte',
 					'SvelteKit',
-					'Angular',
+					'NextJS',
+					'.NET',
 					'RxJs',
 					'Cypress',
 					'Playwright',
 					'Jest',
-					'Docker',
-					'.NET',
 					'Storybook'
 				]
 			},
@@ -231,6 +241,7 @@ export const ResContent = {
 					'Node',
 					'Express.js',
 					'Git',
+					'Docker',
 					'Figma'
 				]
 			}

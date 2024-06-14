@@ -8,7 +8,7 @@
 </script>
 
 {#each content as c}
-	<div class="mb-3 last-of-type:mb-0 flex flex-col gap-1">
+	<div class="mb-2 last-of-type:mb-0 flex flex-col gap-1">
 		<ContentHeader
 			title={c.title}
 			info={c['info'] ?? c['company']}
