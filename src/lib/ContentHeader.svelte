@@ -1,12 +1,23 @@
 <script lang="ts">
 	import { formatDateRange } from './util';
 
-	export let title: string;
-	export let info: string | Array<string>;
-	export let dates: { start: string, end: string };
-	export let location: string | null = null;
-	export let url: string | null = null;
-	export let isOneLine = false;
+	interface Props {
+		title: string;
+		info: string | Array<string>;
+		dates: { start: string, end: string };
+		location?: string | null;
+		url?: string | null;
+		isOneLine?: boolean;
+	}
+
+	let {
+		title,
+		info,
+		dates,
+		location = null,
+		url = null,
+		isOneLine = false
+	}: Props = $props();
 </script>
 
 <div class="content-header md:flex justify-between">

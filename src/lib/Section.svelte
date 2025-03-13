@@ -1,10 +1,14 @@
-<script>
+<script lang="ts">
 	import SectionHeader from './SectionHeader.svelte';
 	import Content from './Content.svelte';
 
-	export let title;
-	export let content;
-	export let headerType = 'default';
+	interface Props {
+		title: any;
+		content: any;
+		headerType?: string;
+	}
+
+	let { title, content, headerType = 'default' }: Props = $props();
 </script>
 
 <div class="container">

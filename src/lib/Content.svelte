@@ -2,8 +2,12 @@
 	import Bullets from './Bullets.svelte';
 	import ContentHeader from './ContentHeader.svelte';
 
-	export let content;
-	export let headerType = 'default';
+	interface Props {
+		content: any;
+		headerType?: string;
+	}
+
+	let { content, headerType = 'default' }: Props = $props();
 
 </script>
 

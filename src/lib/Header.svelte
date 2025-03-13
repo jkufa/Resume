@@ -1,8 +1,17 @@
 <script lang="ts">
-	export let name: string;
-	export let title: string;
-	export let links: string[] = [];
-	export let contacts: string[] = [];
+	interface Props {
+		name: string;
+		title: string;
+		links?: string[];
+		contacts?: string[];
+	}
+
+	let {
+		name,
+		title,
+		links = [],
+		contacts = []
+	}: Props = $props();
 	/**
 	 * Check if string is formatted like a number
 	 * @param {string} str - the string to check

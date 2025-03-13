@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { convertMarkdownToHTML } from './util';
 
-	export let items: string[] = [];
+	interface Props {
+		items?: string[];
+	}
+
+	let { items = [] }: Props = $props();
 </script>
 
 <ul class="list-disc list-outside pl-3">

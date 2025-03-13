@@ -1,25 +1,33 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import Header from '$lib/Header.svelte';
 	import Page from '$lib/Page.svelte';
 	import Section from '$lib/Section.svelte';
 	import Skills from '$lib/Skills.svelte';
 	import Education from '$lib/Education.svelte';
 
-	export let data;
+	let { data } = $props();
 
-	let { ResContent } = data;
-	let { header, experience, projects, skills, education } = ResContent;
-	let { name, title, contacts, links } = header;
+	let { ResContent } = $state(data);
+	let { header, experience, projects, skills, education } = $state(ResContent);
+	let { name, title, contacts, links } = $state(header);
 
-	$: ({ ResContent } = data);
-	$: ({ header, experience, projects, skills, education } = ResContent);
-	$: ({ name, title, contacts, links } = header);
+	run(() => {
+		({ ResContent } = data);
+	});
+	run(() => {
+		({ header, experience, projects, skills, education } = ResContent);
+	});
+	run(() => {
+		({ name, title, contacts, links } = header);
+	});
 
 	let pageTitles = {
 		default: 'Jack Kufa – Resume',
 		print: 'JackKufaResume'
 	};
-	let pageTitle = pageTitles.default;
+	let pageTitle = $state(pageTitles.default);
 
 	function setTitle() {
 		pageTitle = pageTitles.print;
@@ -29,7 +37,7 @@
 	}
 </script>
 
-<svelte:window on:beforeprint={setTitle} on:afterprint={resetTitle} />
+<svelte:window onbeforeprint={setTitle} onafterprint={resetTitle} />
 <svelte:head>
 	<title>{pageTitle}</title>
 </svelte:head>

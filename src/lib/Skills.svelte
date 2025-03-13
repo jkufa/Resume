@@ -1,8 +1,12 @@
 <script lang="ts">
 	import SectionHeader from './SectionHeader.svelte';
 
-	export let title: string;
-	export let items: { skills: string[] }[];
+	interface Props {
+		title: string;
+		items: { skills: string[] }[];
+	}
+
+	let { title, items }: Props = $props();
 </script>
 
 <div class="container">
