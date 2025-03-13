@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { run } from 'svelte/legacy';
-
 	import Header from '$lib/Header.svelte';
 	import Page from '$lib/Page.svelte';
 	import Section from '$lib/Section.svelte';
@@ -12,16 +10,6 @@
 	let { ResContent } = $state(data);
 	let { header, experience, projects, skills, education } = $state(ResContent);
 	let { name, title, contacts, links } = $state(header);
-
-	run(() => {
-		({ ResContent } = data);
-	});
-	run(() => {
-		({ header, experience, projects, skills, education } = ResContent);
-	});
-	run(() => {
-		({ name, title, contacts, links } = header);
-	});
 
 	let pageTitles = {
 		default: 'Jack Kufa – Resume',
