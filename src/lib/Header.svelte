@@ -6,12 +6,7 @@
 		contacts?: string[];
 	}
 
-	let {
-		name,
-		title,
-		links = [],
-		contacts = []
-	}: Props = $props();
+	let { name, title, links = [], contacts = [] }: Props = $props();
 	/**
 	 * Check if string is formatted like a number
 	 * @param {string} str - the string to check
@@ -68,14 +63,13 @@
 </header>
 
 <style lang="postcss">
-
-		.links,
-		.contacts {
-			& a:not(:last-child)::after {
-				display: inline-block;
-				margin-inline-start: theme(margin.1);
-				content: '/';
-				text-decoration: none !important;
-			}
+	.links,
+	.contacts {
+		& a:not(:last-child)::after {
+			display: inline-block;
+			margin-inline-start: theme(margin.1);
+			content: '/';
+			text-decoration: none !important;
 		}
+	}
 </style>
