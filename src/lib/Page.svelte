@@ -38,7 +38,7 @@
     id="page"
     class="flex flex-col gap-4 md:gap-1.5 bg-white shadow-page rounded-xs p-4 md:p-[.5in]
     max-w-[8.5in] md:h-[11in]
-    ease-in-out-expo duration-700 delay-100 transition-all md:hover:scale-[1.01] md:hover:shadow-hover"
+    ease-in-out-expo duration-700 delay-100 transition-all md:hover:shadow-hover"
     transition:fadeIn={{ duration: 800, delay: 100 }}
   >
     {@render children?.()}
