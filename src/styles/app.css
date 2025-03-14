@@ -1,8 +1,50 @@
 /* @import url('./_variables.css'); */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --text-*: initial;
+  --text-header: 28pt;
+  --text-body: 10.5pt;
+
+  --font-sans:
+    Helvetica Neue, Helvetica, Arial, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  /* Not working in components for some reason */
+  --container-A4: 8.5in;
+  --max-height-A4: 11in;
+  --height-A4: 11in;
+
+  --color-bg: #fafafc;
+  --color-font: #1e1e2e;
+  --color-fun: #0800a4;
+  --color-link: #1616df;
+  --color-link-hover: #000079;
+
+  --shadow-page: 0px 4px 8px 0px rgba(0, 0, 0, 0.03), 0px 0px 4px 0px rgba(0, 0, 0, 0.02);
+  --shadow-hover: rgba(2, 2, 131, 0.15) 0px 30px 90px;
+
+  --ease-in-out-expo: cubic-bezier(0.09, 0.33, 0, 0.99);
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-font, currentColor);
+  }
+}
 
 @layer base {
   body {
@@ -17,8 +59,10 @@
       @apply text-link-hover;
     }
   }
-  
-  p,a,li {
+
+  p,
+  a,
+  li {
     @apply md:leading-tight;
   }
   h2 {
@@ -27,10 +71,9 @@
 
   @media print {
     html {
-      height: theme(height.A4);
-      width: theme(maxWidth.A4);
+      height: var(--height-A4);
+      width: var(--container-A4);
       overflow: hidden;
     }
   }
 }
-

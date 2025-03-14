@@ -1,14 +1,11 @@
-<script>
-	import ContentHeader from './ContentHeader.svelte';
-	import SectionHeader from './SectionHeader.svelte';
+<script lang="ts">
+  import ContentHeader from './ContentHeader.svelte';
+  import SectionHeader from './SectionHeader.svelte';
 
-	export let title;
-	export let school;
-	export let degrees = [];
-	export let dates;
+  let { title, school, degrees = [], dates } = $props();
 </script>
 
 <div class="container">
-	<SectionHeader {title} />
-	<ContentHeader title={school} info={degrees} {dates} />
+  <SectionHeader {title} />
+  <ContentHeader title={school} info={degrees} {dates} />
 </div>
