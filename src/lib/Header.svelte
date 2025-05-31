@@ -51,12 +51,12 @@
   <div class="content-end">
     <p class="links flex gap-1">
       {#each links as link}
-        <a class="link" href="https://{link}">{link}</a>
+        <a class="link hover:underline" href="https://{link}">{link}</a>
       {/each}
     </p>
     <p class="contacts flex gap-1 md:justify-end">
       {#each contacts as contact}
-        <a class="contact" href={setContactHref(contact)}>{contact}</a>
+        <a class="contact hover:underline" href={setContactHref(contact)}>{contact}</a>
       {/each}
     </p>
   </div>
